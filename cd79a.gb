@@ -1,0 +1,151 @@
+LOCUS       HUMCD79A                4786 bp    DNA     linear   PRI 10-DEC-1994
+DEFINITION  Homo sapiens Ig-associated signalling molecule (CD79a) gene,
+            complete cds.
+ACCESSION   L32754
+VERSION     L32754.1  GI:600875
+KEYWORDS    B-cell antigen receptor alpha subunit; CD79a antigen;
+            immunoglobulin-associated signalling molecule; mb1 antigen.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 4786)
+  AUTHORS   Hashimoto,S., Mohrenweiser,H.W., Gregersen,P.K. and Chiorazzi,N.
+  TITLE     Chromosomal localization, genomic structure, and allelic
+            polymorphism of the human CD79 alpha (Ig-alpha/mb-1) gene
+  JOURNAL   Immunogenetics 40 (4), 287-295 (1994)
+   PUBMED   7916003
+FEATURES             Location/Qualifiers
+     source          1..4786
+                     /organism="Homo sapiens"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9606"
+     mRNA            join(<680..785,2391..2690,2936..3054,4079..4148,
+                     4277..4779)
+     exon            <680..785
+                     /number=1
+     gene            join(707..785,2391..2690,2936..3054,4079..4148,4277..4389)
+                     /gene="CD79a"
+     CDS             join(707..785,2391..2690,2936..3054,4079..4148,4277..4389)
+                     /gene="CD79a"
+                     /codon_start=1
+                     /product="immunoglobulin-associated signalling molecule"
+                     /protein_id="AAA57274.1"
+                     /db_xref="GI:602606"
+                     /translation="MPGGPGVLQALPATIFLLFLLSAVYLGPGCQALWMHKVPASLMV
+                     SLGEDAHFQCPHNSSNNANVTWWRVLHGNYTWPPEFLGPGEDPNGTLIIQNVNKSHGG
+                     IYVCRVQEGNESYQQSCGTYLRVRQPPPRPFLDMGEGTKNRIITAEGIILLFCAVVPG
+                     TLLLFRKRWQNEKLGLDAGDEYEDENLYEGLNLDDCSMYEDISRGLQGTYQDVGSLNI
+                     GDVQLEKP"
+     intron          786..2390
+                     /gene="CD79a"
+                     /number=1
+     exon            2391..2690
+                     /gene="CD79a"
+                     /number=2
+     intron          2691..2935
+                     /gene="CD79a"
+                     /number=2
+     exon            2936..3054
+                     /gene="CD79a"
+                     /number=3
+     intron          3055..4078
+                     /gene="CD79a"
+                     /number=3
+     exon            4079..4148
+                     /gene="CD79a"
+                     /number=4
+     intron          4149..4276
+                     /gene="CD79a"
+                     /number=4
+     exon            4277..4779
+                     /number=5
+     regulatory      4387..4389
+                     /gene="CD79a"
+                     /regulatory_class="terminator"
+     regulatory      4759..4765
+                     /regulatory_class="polyA_signal_sequence"
+ORIGIN      
+        1 agaattccag taaagagctg atcatggttc tcactccttg aataccagga acaccatctc
+       61 gtatcacata atgagacagg gagacattct ggtcctcatc tcacagatga aaaatgtcaa
+      121 gcttcgaagg atcaaagtgc ccacctagtc acacgggtag tcagccacag gtcagcctgc
+      181 cttatttatt cttcatgagt atttatagtg actaacattt actgggcgcc tactgtgggc
+      241 catttctgtg catgtgacaa cccctttaag tccttgtttc taatcccaag aagcaaggaa
+      301 atggggtcag ggaagggaca agggcccaag tccaggcagg gggagaggtc aagctcagaa
+      361 ccatcacctg cccatgacac atgcccagga ctcaggttcc ctaggcttcc ttccaaaggc
+      421 tcagcagtga cgagccagcc cttgaaccag cctcttcccc cacccaagca gccacctctc
+      481 aggggaattg tggccaccac aggtgcaggg agcagtttct ctccactcac agcctgaagc
+      541 atacccggca ggggctgtcc ccaggcccaa caagcaaagg gcccagtagc gagggccact
+      601 ggagcccatc tccggggggc tgggcaggaa gtagggtggg gtttggggta gggatctggt
+      661 accctgggac tgctgcaact caaactaacc aacccactgg gagaagatgc ctgggggtcc
+      721 aggagtcctc caagctctgc ctgccaccat cttcctcctc ttcctgctgt ctgctgtcta
+      781 cctgggtatg tggccaaagg gcaggaactg gcgggaggtg ggggaagctg tggaggctgc
+      841 agagagggca caggcagagg gaagggggct cagggaaagg ggaagaggag gcagaggata
+      901 ggggacccag ggaagatgcc tatagaaatc gtatctgtgc caagatgggc caaggtgggg
+      961 ctggagggag cccagcgaag gagaaggggc gtccacagtc tcacacaggg aggcaggagc
+     1021 aagagtcacc tcccccacct cctgttcccc acaggccaaa ataaggaact aaagttgctc
+     1081 ttgactgagc accagggctg ggggcaggaa ggggacttag gggtagcagc attcagcgtc
+     1141 tgtcaagggg agaaaaagct ttctctgcct taaacctcag gtgcctctct ctgttgggag
+     1201 tcccttctca gcactggggg aattgggtgt ctcatggact ccccctcacc tgctcaagga
+     1261 cagctggcag gggctgtggc cacgctaacc caggagttca gagaaaaagg ttccccaccc
+     1321 aaggggacac tgggagcaag gattggagtt cacgtctgag tcttaagccc gtgacgatga
+     1381 gggtgctcgg cccctctccc catctcttcc tccttctctc ttcctcacct ccctcctcca
+     1441 cctacctcca gaagagggga ctggccatgt gggaggccgg ctgagagctg gggcttccca
+     1501 gaggagcccg gattggacac tgagccagcc tgagccgcct cgtctcactc agagacaccc
+     1561 ccagtctcca ccccgctctg agccccttca atcaccagca gcccagccca aggactgaac
+     1621 tcacccctga cccctaggtt gacacataca acttacagag aatgagggcc aggcacaggg
+     1681 tcacaggcta gggcaggcca cagactggct cctcagccca ggcagggaga ggccagggag
+     1741 ccaagagttt gaacccagtg ccactcctga ctgtctggtg atgctgacaa cccgcctgcc
+     1801 ctcccagagc ctcagccatc cctcctgtaa aatggggcta aggagagaac ctacttctag
+     1861 ggttctgtga atgattacac aagaaaaagc gccaggtgct gggcctggct gaggctgggg
+     1921 tgcaaaaatg gaccgggaag gctgcgggag gaggggacgc ctgcactgct tctggaagga
+     1981 gctgtctgga cagcggtcct ccagtgcctg gaacaaacat ccaaaatcca gagagttcac
+     2041 agggccagag tacaaagtgg gtatgcggga gggggacaag agatggcgct gcagaggtga
+     2101 gaagggcctc ccaggggtct taccatccca gggagtctca ttctcctctc ccaggatatc
+     2161 ctcacccacc ccaaccaggt atgtcctctc tccttcccag gggcttcttc actttcccgc
+     2221 atcccccctc cccccaggat gtatcagccc ctgtcagggg ctctctctgt ccctccccac
+     2281 ccaggagagt cctcaccctc ttcccaggag tgctggaact gcaggggcca gggctgggga
+     2341 aatgtgtcac catccccagt ccctgaccca cccaccctgt ctctccacag gccctgggtg
+     2401 ccaggccctg tggatgcaca aggtcccagc atcattgatg gtgagcctgg gggaagacgc
+     2461 ccacttccaa tgcccgcaca atagcagcaa caacgccaac gtcacctggt ggcgcgtcct
+     2521 ccatggcaac tacacgtggc cccctgagtt cttgggcccg ggcgaggacc ccaatggtac
+     2581 gctgatcatc cagaatgtga acaagagcca tgggggcata tacgtgtgcc gggtccagga
+     2641 gggcaacgag tcataccagc agtcctgcgg cacctacctc cgcgtgcgcc gtgagtggcc
+     2701 cagccctggc ccctactccc actgtcccgc tggggacact cggtttatct ttgaagtggg
+     2761 gatagagcca gtaccttcaa tgtgggtttc aaaccggctt ggacagaggg acggacattc
+     2821 tcctctgcag agtggggtct ctggggggtc tggggccttg caggaggtgg gcggggccag
+     2881 gaggctaggg agggcaagag gggccagggc tctgagccat actacctcct tgcagagccg
+     2941 ccccccaggc ccttcctgga catgggggag ggcaccaaga accgaatcat cacagccgag
+     3001 gggatcatcc tcctgttctg cgcggtggtg cctgggacgc tgctgctgtt cagggtgagc
+     3061 cccctcggac ctctgagtca gccgggcgag ggcctgggcc cgagggaccc ccaataccca
+     3121 ggtagccctc tagagcctga ggttccccat ccaaaacttg ggagaatgaa agcacccacc
+     3181 atataggggc tgtgggagtt aaatgaatga atataaagaa gggcttgaac tggcgctgag
+     3241 cccaggggtt gtcttcaatt tagtttcccc ttctgggctg tcctcacgtc cacctccccc
+     3301 caagaagagt ctcattcttc tccctaagag tgtcctcact cccctcctgc cctcacccag
+     3361 gagtgtggtt accctccagg tgtagccaag accagggaag gtggggcctg gtcctcccag
+     3421 aatctctgat ctgtaccagc ctctccttag gcactacaga aagtgtgact gttattgtta
+     3481 ttattcatgg agaatagtaa gggagtggag actcaaggag acgctagctt gggaggccga
+     3541 ggcaagagga tcacttgagg ccacaagttt gagaccagcc tgggcaacac agcaagaccc
+     3601 tatctctaca cacacaaagt cttaaaaaaa ttagccaggc atggtggcac acacctatag
+     3661 tcccagctac tcaggaggct gaggtgggag gattgcttga gcccaggagt tcaaggctgc
+     3721 agtgaaatat gatgttgcca cagcacttca gcctgggcaa ctgagggaga agaaagagag
+     3781 agagagagaa agagagagag agagagagag agagagaggg cgggagggag ggagggaagg
+     3841 aagggaaggg aagggaagga aggaaggaag gaggaaggaa ggaaggaagg aaggaaggaa
+     3901 ggaaggaagg aaggagaaca ctggttgtag actcagagag aactgttaca taaccagtat
+     3961 gtggccttgg ggacatctct taccctttct ggaaaagtac ttcctggcat ccaggagggt
+     4021 ctgaaagata ttcacctccc cctgctcact gaggcaccca ccccacccac ccctacagaa
+     4081 acgatggcag aacgagaagc tcgggttgga tgccggggat gaatatgaag atgaaaacct
+     4141 ttatgaaggt gagtgaaggg tggggatggg gtaggggcag ttttgttagg ggtgggggtg
+     4201 ttccctctgg gggtggctgg gggcagggac cccaggtgtc agggtgctga tgttcgctgc
+     4261 ctcatttcca tcccaggcct gaacctggac gactgctcca tgtatgagga catctcccgg
+     4321 ggcctccagg gcacctacca ggatgtgggc agcctcaaca taggagatgt ccagctggag
+     4381 aagccgtgac acccctactc ctgccaggct gcccccgcct gctgtgcacc cagctccagt
+     4441 gtctcagctc acttccctgg gacattctcc tttcagccct tctgggggct tccttagtca
+     4501 tattccccca gtggggggtg ggagggtaac ctcactcttc tccaggccag gcctccttgg
+     4561 actcccctgg gggtgtccca ctcttcttcc ctctaaactg ccccacctcc taacctaatc
+     4621 cccccgcccc gctgcctttc ccaggctccc ctcacccagc gggtaatgag cccttaatcg
+     4681 ctgcctctag gggagctgat tgtagcagcc tcgttagtgt caccccctcc tccctgatct
+     4741 gtcagggcca cttagtgata ataaattctt cccaactgca gacctt
+//
+
