@@ -1,0 +1,50 @@
+LOCUS       S79248                   564 bp    mRNA    linear   PRI 30-NOV-1995
+DEFINITION  Ig-alpha/mb-1=CD79a {alternatively spliced} [human, B cells, mRNA
+            Partial, 564 nt].
+ACCESSION   S79248
+VERSION     S79248.1  GI:1087006
+KEYWORDS    .
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 564)
+  AUTHORS   Hashimoto,S., Chiorazzi,N. and Gregersen,P.K.
+  TITLE     Alternative splicing of CD79a (Ig-alpha/mb-1) and CD79b
+            (Ig-beta/B29) RNA transcripts in human B cells
+  JOURNAL   Mol. Immunol. 32 (9), 651-659 (1995)
+   PUBMED   7643857
+  REMARK    GenBank staff at the National Library of Medicine created this
+            entry [NCBI gibbsq 169958] from the original journal article.
+FEATURES             Location/Qualifiers
+     source          1..564
+                     /organism="Homo sapiens"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9606"
+     gene            1..564
+                     /gene="Ig-alpha/mb-1"
+                     /note="CD79a"
+     CDS             1..564
+                     /gene="Ig-alpha/mb-1"
+                     /codon_start=1
+                     /product="CD79a"
+                     /protein_id="AAC60653.1"
+                     /db_xref="GI:1087007"
+                     /translation="MPGGPGVLQALPATIFLLFLLSAVYLGPGCQALWMHKVPASLMV
+                     SLGEDAHFQCPHNSSNNANVTWWRVLHGNYTWPPEFLGPGEDPNEPPPRPFLDMGEGT
+                     KNRIITAEGIILLFCAVVPGTLLLFRKRWQNEKLGLDAGDEYEDENLYEGLNLDDCSM
+                     YEDISRGLQGTYQDVGSLNIGDVQLEKP"
+ORIGIN      
+        1 atgcctgggg gtccaggagt cctccaagct ctgcctgcca ccatcttcct cctcttcctg
+       61 ctgtctgctg tctacctggg ccctgggtgc caggccctgt ggatgcacaa ggtcccagca
+      121 tcattgatgg tgagcctggg ggaagacgcc cacttccaat gcccgcacaa tagcagcaac
+      181 aacgccaacg tcacctggtg gcgcgtcctc catggcaact acacgtggcc ccctgagttc
+      241 ttgggcccgg gcgaggaccc caatgagccg ccccccaggc ccttcctgga catgggggag
+      301 ggcaccaaga accgaatcat cacagccgag gggatcatcc tcctgttctg cgcggtggtg
+      361 cctgggacgc tgctgctgtt caggaaacga tggcagaacg agaagctcgg gttggatgcc
+      421 ggggatgaat atgaagatga aaacctttat gaaggcctga acctggacga ctgctccatg
+      481 tatgaggaca tctcccgggg cctccagggc acctaccagg atgtgggcag cctcaacata
+      541 ggagatgtcc agctggagaa gccg
+//
+

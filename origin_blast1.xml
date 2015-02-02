@@ -1,0 +1,1499 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastx</BlastOutput_program>
+  <BlastOutput_version>BLASTX 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>37869</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>1125</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>37869</Iteration_query-ID>
+  <Iteration_query-def>No definition line</Iteration_query-def>
+  <Iteration_query-len>1125</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|355757356|gb|EHH60881.1|</Hit_id>
+  <Hit_def>hypothetical protein EGM_18770, partial [Macaca fascicularis]</Hit_def>
+  <Hit_accession>EHH60881</Hit_accession>
+  <Hit_len>99</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>124.02</Hsp_bit-score>
+      <Hsp_score>310</Hsp_score>
+      <Hsp_evalue>6.59733e-31</Hsp_evalue>
+      <Hsp_query-from>488</Hsp_query-from>
+      <Hsp_query-to>781</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>99</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>LFLKWSLALLPRLDCNCSISTHCNLRLRGSSDSSASAS*VAGITGARHHAQLILVF-LETGFLHVGQAVLKLPTSGDQPVSASQSVEITGVSHCAWPIL</Hsp_qseq>
+      <Hsp_hseq>LFLRWSLALLPRLECSGAISPQCNLCLLGSSDSPASASQVAGITGACHHSQLIFVFLLEMGFHRVGQAGLKLLSSSDPPVSASQSAGITGMSHRTWPKL</Hsp_hseq>
+      <Hsp_midline>LFL+WSLALLPRL+C+ +IS  CNL L GSSDS ASAS VAGITGA HH+QLI VF LE GF  VGQA LKL +S D PVSASQS  ITG+SH  WP L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|355564363|gb|EHH20863.1|</Hit_id>
+  <Hit_def>hypothetical protein EGK_03802, partial [Macaca mulatta]</Hit_def>
+  <Hit_accession>EHH20863</Hit_accession>
+  <Hit_len>97</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>123.25</Hsp_bit-score>
+      <Hsp_score>308</Hsp_score>
+      <Hsp_evalue>1.40685e-30</Hsp_evalue>
+      <Hsp_query-from>500</Hsp_query-from>
+      <Hsp_query-to>784</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>96</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>96</Hsp_align-len>
+      <Hsp_qseq>ILFLKWSLALLPRLDCNCSISTHCNLRLRGSSDSSASAS*VAGITGARHHAQLILVFL-ETGFLHVGQAVLKLPTSGDQPVSASQSVEITGVSHCA</Hsp_qseq>
+      <Hsp_hseq>FFFLRWSLILSPRLECSGVISAHCNLRLPGSSDSLASASRVAGITGTYHHAWLIFVFLVETGFHHVGQAGLELVTSGDPPTSASQSAGITGMSHHA</Hsp_hseq>
+      <Hsp_midline>  FL+WSL L PRL+C+  IS HCNLRL GSSDS ASAS VAGITG  HHA LI VFL ETGF HVGQA L+L TSGD P SASQS  ITG+SH A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|355756662|gb|EHH60270.1|</Hit_id>
+  <Hit_def>hypothetical protein EGM_11598, partial [Macaca fascicularis]</Hit_def>
+  <Hit_accession>EHH60270</Hit_accession>
+  <Hit_len>94</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>120.939</Hsp_bit-score>
+      <Hsp_score>302</Hsp_score>
+      <Hsp_evalue>7.54974e-30</Hsp_evalue>
+      <Hsp_query-from>494</Hsp_query-from>
+      <Hsp_query-to>766</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>94</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>SLALLPRLDCNCSISTHCNLRLRGSSDSSASAS*VAGITGARHHAQLILVFL-ETGFLHVGQAVLKLPTSGDQPVSASQSVEITGVSHCAWP</Hsp_qseq>
+      <Hsp_hseq>SLMLSPRLECSGVISAHCNLRLPGSSDSPASASQVAGITGAHHHAWLIFVFLVETGFHHVGQAGLELLTSGDPPALASQSAGITGVSHRAWP</Hsp_hseq>
+      <Hsp_midline>SL L PRL+C+  IS HCNLRL GSSDS ASAS VAGITGA HHA LI VFL ETGF HVGQA L+L TSGD P  ASQS  ITGVSH AWP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|355565944|gb|EHH22373.1|</Hit_id>
+  <Hit_def>hypothetical protein EGK_05619, partial [Macaca mulatta]</Hit_def>
+  <Hit_accession>EHH22373</Hit_accession>
+  <Hit_len>97</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>120.553</Hsp_bit-score>
+      <Hsp_score>301</Hsp_score>
+      <Hsp_evalue>1.35781e-29</Hsp_evalue>
+      <Hsp_query-from>500</Hsp_query-from>
+      <Hsp_query-to>784</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>96</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>96</Hsp_align-len>
+      <Hsp_qseq>ILFLKWSLALLPRLDCNCSISTHCNLRLRGSSDSSASAS*VAGITGARHHAQLILVFL-ETGFLHVGQAVLKLPTSGDQPVSASQSVEITGVSHCA</Hsp_qseq>
+      <Hsp_hseq>FIFLRWSLALSPRLECSGVISTHCKLRLPGSRHSPVSASQVTGTTGARHHAQLIFVFLVEMGFHHIGQAGLELLTSGDPPASASQSAGITGMSHRA</Hsp_hseq>
+      <Hsp_midline> +FL+WSLAL PRL+C+  ISTHC LRL GS  S  SAS V G TGARHHAQLI VFL E GF H+GQA L+L TSGD P SASQS  ITG+SH A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|355757821|gb|EHH61346.1|</Hit_id>
+  <Hit_def>hypothetical protein EGM_19342, partial [Macaca fascicularis]</Hit_def>
+  <Hit_accession>EHH61346</Hit_accession>
+  <Hit_len>96</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>119.783</Hsp_bit-score>
+      <Hsp_score>299</Hsp_score>
+      <Hsp_evalue>2.21051e-29</Hsp_evalue>
+      <Hsp_query-from>506</Hsp_query-from>
+      <Hsp_query-to>790</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>96</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>96</Hsp_align-len>
+      <Hsp_qseq>LLILFLKWSLALLPRLDCNCSISTHCNLRLRGSSDSSASAS*VAGITGARHHAQLILVFL-ETGFLHVGQAVLKLPTSGDQPVSASQSVEITGVSH</Hsp_qseq>
+      <Hsp_hseq>MWIFFLRRSLALSPRLECNGGISAHCNLCLPGSSESPASASRVAGITGSHHHARLIFVFLVETGFHHVGQAGLKLLTLGDLPVSASQSAGITGTSH</Hsp_hseq>
+      <Hsp_midline>+ I FL+ SLAL PRL+CN  IS HCNL L GSS+S ASAS VAGITG+ HHA+LI VFL ETGF HVGQA LKL T GD PVSASQS  ITG SH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|119631865|gb|EAX11460.1|</Hit_id>
+  <Hit_def>hCG2038446, partial [Homo sapiens]</Hit_def>
+  <Hit_accession>EAX11460</Hit_accession>
+  <Hit_len>135</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>120.553</Hsp_bit-score>
+      <Hsp_score>301</Hsp_score>
+      <Hsp_evalue>3.32763e-29</Hsp_evalue>
+      <Hsp_query-from>506</Hsp_query-from>
+      <Hsp_query-to>781</Hsp_query-to>
+      <Hsp_hit-from>43</Hsp_hit-from>
+      <Hsp_hit-to>135</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>93</Hsp_align-len>
+      <Hsp_qseq>LFLKWSLALLPRLDCNCSISTHCNLRLRGSSDSSASAS*VAGITGARHHAQLILVFL-ETGFLHVGQAVLKLPTSGDQPVSASQSVEITGVSH</Hsp_qseq>
+      <Hsp_hseq>LMLRWSLALSPRLECSGRILAHCNLRLPGSNDSPASASPVAGITGACHHAQLIFVFLVETGFHHVVQAGLDLLTSGDPPTSASQSTGITGVSH</Hsp_hseq>
+      <Hsp_midline>L L+WSLAL PRL+C+  I  HCNLRL GS+DS ASAS VAGITGA HHAQLI VFL ETGF HV QA L L TSGD P SASQS  ITGVSH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|355564236|gb|EHH20736.1|</Hit_id>
+  <Hit_def>hypothetical protein EGK_03652, partial [Macaca mulatta]</Hit_def>
+  <Hit_accession>EHH20736</Hit_accession>
+  <Hit_len>103</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>119.398</Hsp_bit-score>
+      <Hsp_score>298</Hsp_score>
+      <Hsp_evalue>3.88461e-29</Hsp_evalue>
+      <Hsp_query-from>488</Hsp_query-from>
+      <Hsp_query-to>766</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>103</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>94</Hsp_align-len>
+      <Hsp_qseq>SLALLPRLDCNCSISTHCNLRLRGSSDSSASAS*VAGITGARHHAQLI-LVFLETGFLHVGQAVLKLPTSGDQPVSASQSVEITGVSHCAWPIL</Hsp_qseq>
+      <Hsp_hseq>SLALSPRLEGSGAISAHCNLHLLGSRNSPASATQVAGITGPRHHARLIFLFFVETGFHHVGQAGLELLTSGDPPASASQSAGITGMSHCAWPFF</Hsp_hseq>
+      <Hsp_midline>SLAL PRL+ + +IS HCNL L GS +S ASA+ VAGITG RHHA+LI L F+ETGF HVGQA L+L TSGD P SASQS  ITG+SHCAWP  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|119615475|gb|EAW95069.1|</Hit_id>
+  <Hit_def>hCG1818479 [Homo sapiens]</Hit_def>
+  <Hit_accession>EAW95069</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>119.013</Hsp_bit-score>
+      <Hsp_score>297</Hsp_score>
+      <Hsp_evalue>5.27886e-29</Hsp_evalue>
+      <Hsp_query-from>491</Hsp_query-from>
+      <Hsp_query-to>775</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>96</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>LKWSLALLPRLDCNCSISTHCNLRLRGSSDSSASAS*VAGITGARHHAQLILVFL--ETGFLHVGQAVLKLPTSGDQPVSASQSVEITGVSHCAWPI</Hsp_qseq>
+      <Hsp_hseq>MEFSL-LLPRLECNGAISAHRNLRLPGSSDSPASASLVAGITGMCHHARLILYFFLVEMEFLHVGQAGLELPTSDDPPVSASQSAEITGMSHHARPL</Hsp_hseq>
+      <Hsp_midline>+++SL LLPRL+CN +IS H NLRL GSSDS ASAS VAGITG  HHA+LIL F   E  FLHVGQA L+LPTS D PVSASQS EITG+SH A P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|78499745|gb|ABB45869.1|</Hit_id>
+  <Hit_def>Down syndrome encephalopathy related protein 1 [Homo sapiens]</Hit_def>
+  <Hit_accession>ABB45869</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>122.094</Hsp_bit-score>
+      <Hsp_score>305</Hsp_score>
+      <Hsp_evalue>9.0101e-29</Hsp_evalue>
+      <Hsp_query-from>491</Hsp_query-from>
+      <Hsp_query-to>805</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>183</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>109</Hsp_align-len>
+      <Hsp_qseq>VLLTFLLILFLKWSLALLPRLDCNCSISTHCNLRLRGSSDSSASAS*VAGITGARHHAQLI----LVFLETGFLHVGQAVLKLPTSGDQPVSASQSVEITGVSHCAWPI</Hsp_qseq>
+      <Hsp_hseq>MLTCFAFFLFLRQSLTLLPRLECSGTISAHCNLHLPGSSDSPASASRVAGITGMHHHAQLTFFFFVFLVETGSHHFSQPGLELPTLGDPPASASQSTEITSVSRCTWPI</Hsp_hseq>
+      <Hsp_midline>+L  F   LFL+ SL LLPRL+C+ +IS HCNL L GSSDS ASAS VAGITG  HHAQL     +  +ETG  H  Q  L+LPT GD P SASQS EIT VS C WPI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|355567321|gb|EHH23662.1|</Hit_id>
+  <Hit_def>hypothetical protein EGK_07177, partial [Macaca mulatta]</Hit_def>
+  <Hit_accession>EHH23662</Hit_accession>
+  <Hit_len>105</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.242</Hsp_bit-score>
+      <Hsp_score>295</Hsp_score>
+      <Hsp_evalue>1.19131e-28</Hsp_evalue>
+      <Hsp_query-from>485</Hsp_query-from>
+      <Hsp_query-to>793</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>FLLILFLKWSLALLPRLDCNCSISTHCNLRLRGSSDSSASAS*VAGITGARHHAQLILVFL-ETGFLHVGQAVLKLPTSGDQPVSASQSVEITGVSHCAWPILL</Hsp_qseq>
+      <Hsp_hseq>FYYYYYLRQSLILSPRLECSGVISAHCVLRLPGSSDSPVSASRVAGITGVSHHAQLVFVFLVETGFHHVGQAGLEFLTSGDLPASASQSAGITDVRHRTWPAFF</Hsp_hseq>
+      <Hsp_midline>F    +L+ SL L PRL+C+  IS HC LRL GSSDS  SAS VAGITG  HHAQL+ VFL ETGF HVGQA L+  TSGD P SASQS  IT V H  WP   </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|355693350|gb|EHH27953.1|</Hit_id>
+  <Hit_def>hypothetical protein EGK_18276, partial [Macaca mulatta] &gt;gi|355778663|gb|EHH63699.1| hypothetical protein EGM_16720, partial [Macaca fascicularis]</Hit_def>
+  <Hit_accession>EHH27953</Hit_accession>
+  <Hit_len>102</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.857</Hsp_bit-score>
+      <Hsp_score>294</Hsp_score>
+      <Hsp_evalue>1.3694e-28</Hsp_evalue>
+      <Hsp_query-from>506</Hsp_query-from>
+      <Hsp_query-to>799</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>102</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>LTFLLILFLKWSLALLPRLDCNCSI----STHCNLRLRGSSDSSASAS*VAGITGARHHAQLILVFL-ETGFLHVGQAVLKLPTSGDQPVSASQSVEITGVSH</Hsp_qseq>
+      <Hsp_hseq>VYFYFYFYLRWSLALSPRLEC-CGVILAHYTHCNFHLMGSSDSPASGSQVTGIIGAHHHTWLILVFLVETGFLHVGQAGLELLTSGDPPASASQSAGITGVSH</Hsp_hseq>
+      <Hsp_midline>+ F    +L+WSLAL PRL+C C +     THCN  L GSSDS AS S V GI GA HH  LILVFL ETGFLHVGQA L+L TSGD P SASQS  ITGVSH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|355755615|gb|EHH59362.1|</Hit_id>
+  <Hit_def>hypothetical protein EGM_09449, partial [Macaca fascicularis]</Hit_def>
+  <Hit_accession>EHH59362</Hit_accession>
+  <Hit_len>103</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.701</Hsp_bit-score>
+      <Hsp_score>291</Hsp_score>
+      <Hsp_evalue>3.6487e-28</Hsp_evalue>
+      <Hsp_query-from>500</Hsp_query-from>
+      <Hsp_query-to>784</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>96</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>96</Hsp_align-len>
+      <Hsp_qseq>ILFLKWSLALLPRLDCNCSISTHCNLRLRGSSDSSASAS*VAGITGARHHAQLILVFL-ETGFLHVGQAVLKLPTSGDQPVSASQSVEITGVSHCA</Hsp_qseq>
+      <Hsp_hseq>FFFLRRSLALSPRLECSGAISTHCNLCLLGSSDSPASASGVAESTGTHHHAQLIFVFLVETGFHYVGQAGLELLTSGDPPASASQSAGITGVSHGA</Hsp_hseq>
+      <Hsp_midline>  FL+ SLAL PRL+C+ +ISTHCNL L GSSDS ASAS VA  TG  HHAQLI VFL ETGF +VGQA L+L TSGD P SASQS  ITGVSH A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|34526231|dbj|BAC85205.1|</Hit_id>
+  <Hit_def>unnamed protein product [Homo sapiens]</Hit_def>
+  <Hit_accession>BAC85205</Hit_accession>
+  <Hit_len>128</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.087</Hsp_bit-score>
+      <Hsp_score>292</Hsp_score>
+      <Hsp_evalue>4.8081e-28</Hsp_evalue>
+      <Hsp_query-from>491</Hsp_query-from>
+      <Hsp_query-to>760</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>119</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>ALLPRLDCNCSISTHCNLRLRGSSDSSASAS*VAGITGARHHAQLILVFL-ETGFLHVGQAVLKLPTSGDQPVSASQSVEITGVSHCAWPI</Hsp_qseq>
+      <Hsp_hseq>ALSPRLECSGAISAHCNLRLLGSSYSLASASRVSGITGSRHHAQLFFVFLVETGFHHIGQAGLELLTSGDPPTSASQSVGITGVSHRAQQM</Hsp_hseq>
+      <Hsp_midline>AL PRL+C+ +IS HCNLRL GSS S ASAS V+GITG+RHHAQL  VFL ETGF H+GQA L+L TSGD P SASQSV ITGVSH A  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|675771409|ref|XP_008988430.1|</Hit_id>
+  <Hit_def>PREDICTED: putative uncharacterized protein encoded by LINC00269 [Callithrix jacchus]</Hit_def>
+  <Hit_accession>XP_008988430</Hit_accession>
+  <Hit_len>107</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.316</Hsp_bit-score>
+      <Hsp_score>290</Hsp_score>
+      <Hsp_evalue>5.71563e-28</Hsp_evalue>
+      <Hsp_query-from>491</Hsp_query-from>
+      <Hsp_query-to>796</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>101</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>102</Hsp_align-len>
+      <Hsp_qseq>TFLLILFLKWSLALLPRLDCNCSISTHCNLRLRGSSDSSASAS*VAGITGARHHAQLILVFLETGFLHVGQAVLKLPTSGDQPVSASQSVEITGVSHCAWPI</Hsp_qseq>
+      <Hsp_hseq>SIYLVFYLRWSLTLSPRLECNGAVSAHCSLCLLGSSDSPASATRVAGITGTCHHAWLIFV----GFHHVGQAGLKLLTSGDPPASASQSAGITGVSHHVWSI</Hsp_hseq>
+      <Hsp_midline>+  L+ +L+WSL L PRL+CN ++S HC+L L GSSDS ASA+ VAGITG  HHA LI V    GF HVGQA LKL TSGD P SASQS  ITGVSH  W I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|397138526|ref|XP_003846764.1|</Hit_id>
+  <Hit_def>PREDICTED: putative uncharacterized protein encoded by LINC00269-like [Homo sapiens] &gt;gi|397139328|ref|XP_003846300.1| PREDICTED: putative uncharacterized protein encoded by LINC00269-like [Homo sapiens] &gt;gi|410172460|ref|XP_003960504.1| PREDICTED: putative uncharacterized protein encoded by LINC00269-like [Homo sapiens] &gt;gi|10437569|dbj|BAB15071.1| unnamed protein product [Homo sapiens] &gt;gi|119582875|gb|EAW62471.1| hCG1744006 [Homo sapiens]</Hit_def>
+  <Hit_accession>XP_003846764</Hit_accession>
+  <Hit_len>171</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.242</Hsp_bit-score>
+      <Hsp_score>295</Hsp_score>
+      <Hsp_evalue>6.45405e-28</Hsp_evalue>
+      <Hsp_query-from>494</Hsp_query-from>
+      <Hsp_query-to>787</Hsp_query-to>
+      <Hsp_hit-from>53</Hsp_hit-from>
+      <Hsp_hit-to>151</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>LILFLKWSLALLPRLDCNCSISTHCNLRLRGSSDSSASAS*VAGITGARHHAQLILVFL-ETGFLHVGQAVLKLPTSGDQPVSASQSVEITGVSHCAWP</Hsp_qseq>
+      <Hsp_hseq>FFFFLRQSLTLSPRLECNGAISAHCHLRLPDSSNSPASASQVTGITGSHHHAWLIFVFLVETGFCHVGQDGLELLTSGDPPASASQSAGITGMSHHTWP</Hsp_hseq>
+      <Hsp_midline>   FL+ SL L PRL+CN +IS HC+LRL  SS+S ASAS V GITG+ HHA LI VFL ETGF HVGQ  L+L TSGD P SASQS  ITG+SH  WP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|355751301|gb|EHH55556.1|</Hit_id>
+  <Hit_def>hypothetical protein EGM_04788, partial [Macaca fascicularis]</Hit_def>
+  <Hit_accession>EHH55556</Hit_accession>
+  <Hit_len>96</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.546</Hsp_bit-score>
+      <Hsp_score>288</Hsp_score>
+      <Hsp_evalue>8.55205e-28</Hsp_evalue>
+      <Hsp_query-from>494</Hsp_query-from>
+      <Hsp_query-to>778</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>96</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>96</Hsp_align-len>
+      <Hsp_qseq>FLKWSLALLPRLDCNCSISTHCNLRLRGSSDSSASAS*VAGITGARHHAQLILVFL-ETGFLHVGQAVLKLPTSGDQPVSASQSVEITGVSHCAWP</Hsp_qseq>
+      <Hsp_hseq>ILRQSLALSPRLECSGTISAHCNLHLLGSSDSPVSAPRVVGITGTCHHAWLTFVFLVETGFHHVGQAGLELLASGDPPASASQSAGITGVSHCTWP</Hsp_hseq>
+      <Hsp_midline> L+ SLAL PRL+C+ +IS HCNL L GSSDS  SA  V GITG  HHA L  VFL ETGF HVGQA L+L  SGD P SASQS  ITGVSHC WP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|355747488|gb|EHH51985.1|</Hit_id>
+  <Hit_def>hypothetical protein EGM_12341, partial [Macaca fascicularis]</Hit_def>
+  <Hit_accession>EHH51985</Hit_accession>
+  <Hit_len>102</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.161</Hsp_bit-score>
+      <Hsp_score>287</Hsp_score>
+      <Hsp_evalue>1.3981e-27</Hsp_evalue>
+      <Hsp_query-from>506</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>99</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>90</Hsp_align-len>
+      <Hsp_qseq>KWSLALLPRLDCNCSISTHCNLRLRGSSDSSASAS*VAGITGARHHAQLILVFL-ETGFLHVGQAVLKLPTSGDQPVSASQSVEITGVSH</Hsp_qseq>
+      <Hsp_hseq>RRSLALSPRLECSGAISAHCNLRVPGSRNSPASASRVAGTTSARHHTQLIFIFLVETGFHHVGQAGLELLTSGDPPTSASQSAGITGVSH</Hsp_hseq>
+      <Hsp_midline>+ SLAL PRL+C+ +IS HCNLR+ GS +S ASAS VAG T ARHH QLI +FL ETGF HVGQA L+L TSGD P SASQS  ITGVSH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|34526288|dbj|BAC85219.1|</Hit_id>
+  <Hit_def>unnamed protein product [Homo sapiens]</Hit_def>
+  <Hit_accession>BAC85219</Hit_accession>
+  <Hit_len>150</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.316</Hsp_bit-score>
+      <Hsp_score>290</Hsp_score>
+      <Hsp_evalue>1.76526e-27</Hsp_evalue>
+      <Hsp_query-from>476</Hsp_query-from>
+      <Hsp_query-to>796</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>126</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>109</Hsp_align-len>
+      <Hsp_qseq>TFLLILFLKWSLALLPRLDCNCSISTHCNLRLRGSSDSSASAS*VAGITGARHHAQLILVFL-ETGFLHVGQAVLKLPTSGDQPVSASQSVEITGVSHCAWP-ILLKLL</Hsp_qseq>
+      <Hsp_hseq>TELFFSFFRQGLALSLRLECNGTISAHCNLHLPGSSDSCVSACRVAGTTSAHHHTQLIFVFLVEMGFHHVGQVGLELLTSSDSPALASQSAGITGVSHCAWPELVLKLL</Hsp_hseq>
+      <Hsp_midline>T L   F +  LAL  RL+CN +IS HCNL L GSSDS  SA  VAG T A HH QLI VFL E GF HVGQ  L+L TS D P  ASQS  ITGVSHCAWP ++LKLL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|119577496|gb|EAW57092.1|</Hit_id>
+  <Hit_def>hCG1995581, partial [Homo sapiens]</Hit_def>
+  <Hit_accession>EAW57092</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.627</Hsp_bit-score>
+      <Hsp_score>296</Hsp_score>
+      <Hsp_evalue>1.94629e-27</Hsp_evalue>
+      <Hsp_query-from>425</Hsp_query-from>
+      <Hsp_query-to>775</Hsp_query-to>
+      <Hsp_hit-from>95</Hsp_hit-from>
+      <Hsp_hit-to>211</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>LKWSLALLPRLDCNCSISTHCNLRLRGSSDSSASAS*VAGITGARHHAQLILVFL-ETGFLHVGQAVLKLPTSGDQPVSASQSVEITGVSHCAWPILLKLLRLTFGDCQLNCPAAELL</Hsp_qseq>
+      <Hsp_hseq>LFW-FPLSPRLECSGAISAYCNLHLPGSSDPPISASRVAGITGVHHHARLIFVFLVEMGFHHVGQADLELLTSGDPPASASQSAGITGVSHCTWPCFSSYFFLLFCLCGSPHPVPHLL</Hsp_hseq>
+      <Hsp_midline>L W   L PRL+C+ +IS +CNL L GSSD   SAS VAGITG  HHA+LI VFL E GF HVGQA L+L TSGD P SASQS  ITGVSHC WP       L F  C    P   LL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|675698928|ref|XP_008959130.1|</Hit_id>
+  <Hit_def>PREDICTED: uncharacterized protein LOC103784486 [Pan paniscus] &gt;gi|694968143|ref|XP_009430935.1| PREDICTED: uncharacterized protein LOC104002906 [Pan troglodytes]</Hit_def>
+  <Hit_accession>XP_008959130</Hit_accession>
+  <Hit_len>165</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.701</Hsp_bit-score>
+      <Hsp_score>291</Hsp_score>
+      <Hsp_evalue>2.02247e-27</Hsp_evalue>
+      <Hsp_query-from>495</Hsp_query-from>
+      <Hsp_query-to>782</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>110</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>SFFEMESRSVAQAGLQLLDLNPLQPPPPGFERFFCLSLLSSWDYRCAPPCPTNFGIF-RDRVSPCWSGCSQAPNLR*SARLGLPKC*DYRCEPLCLA</Hsp_qseq>
+      <Hsp_hseq>AFFEMESRSGAQVGVQWHDLGSLQLSSPRFKRFSCLSLLSSWYYRCPPPQPANFCVFTRDRVSLYWPGRSRTPDLRHSARLGLPKCRDYRCEPPCPA</Hsp_hseq>
+      <Hsp_midline>+FFEMESRS AQ G+Q  DL  LQ   P F+RF CLSLLSSW YRC PP P NF +F RDRVS  W G S+ P+LR SARLGLPKC DYRCEP C A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|355756225|gb|EHH59972.1|</Hit_id>
+  <Hit_def>hypothetical protein EGM_10210, partial [Macaca fascicularis]</Hit_def>
+  <Hit_accession>EHH59972</Hit_accession>
+  <Hit_len>99</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.39</Hsp_bit-score>
+      <Hsp_score>285</Hsp_score>
+      <Hsp_evalue>2.06163e-27</Hsp_evalue>
+      <Hsp_query-from>494</Hsp_query-from>
+      <Hsp_query-to>787</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>99</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>LILFLKWSLALLPRLDCNCSISTHCNLRLRGSSDSSASAS*VAGITGARHHAQLILVFL-ETGFLHVGQAVLKLPTSGDQPVSASQSVEITGVSHCAWP</Hsp_qseq>
+      <Hsp_hseq>FFFFLRQSFTLLPRLECNGVIFAHCNFHLPGSSDSPVSASRVAGITGAHHHTWLIFVFLVKTGFHHLGQAGLELLTLGDPPASASQSAGITGVSHHAQP</Hsp_hseq>
+      <Hsp_midline>   FL+ S  LLPRL+CN  I  HCN  L GSSDS  SAS VAGITGA HH  LI VFL +TGF H+GQA L+L T GD P SASQS  ITGVSH A P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|34526247|dbj|BAC85209.1|</Hit_id>
+  <Hit_def>unnamed protein product [Homo sapiens]</Hit_def>
+  <Hit_accession>BAC85209</Hit_accession>
+  <Hit_len>121</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.161</Hsp_bit-score>
+      <Hsp_score>287</Hsp_score>
+      <Hsp_evalue>2.45199e-27</Hsp_evalue>
+      <Hsp_query-from>500</Hsp_query-from>
+      <Hsp_query-to>799</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>101</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>LTFLLILFLKWSLALLPRLDCNCSISTHCNLRLRGSSDSSASAS*VAGITGARHHAQLILVFL-ETGFLHVGQAVLKLPTSGDQPVSASQSVEITGVSHCA</Hsp_qseq>
+      <Hsp_hseq>MLFIYFIFLRWSLALPPKLKCYGAILAYCNFHLLGSSNSPASASHVAGITGAHRHARLVFVFLVETGFHHVGQAGLELLTSGDLPTLASPSPGITGVGHCA</Hsp_hseq>
+      <Hsp_midline>+ F+  +FL+WSLAL P+L C  +I  +CN  L GSS+S ASAS VAGITGA  HA+L+ VFL ETGF HVGQA L+L TSGD P  AS S  ITGV HCA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|355779528|gb|EHH64004.1|</Hit_id>
+  <Hit_def>hypothetical protein EGM_17106, partial [Macaca fascicularis]</Hit_def>
+  <Hit_accession>EHH64004</Hit_accession>
+  <Hit_len>121</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.005</Hsp_bit-score>
+      <Hsp_score>284</Hsp_score>
+      <Hsp_evalue>5.02213e-27</Hsp_evalue>
+      <Hsp_query-from>497</Hsp_query-from>
+      <Hsp_query-to>784</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>97</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>ILFLKWSLALLPRLDCNCSISTHCNLRLRGSSDSSASAS*VAGITGARHHAQLILVFL-ETGFLHVGQAVLKLPTSGDQPVSASQSVEITGVSHCAW</Hsp_qseq>
+      <Hsp_hseq>FFFLRQNLALSPRLECNGVISAHCNLHLPGSSDSPASASQVAGITGSRHHTWLSFVFLVETRFHHIGQAGLELLTSGDPPTLASQSAGITGMSHHAW</Hsp_hseq>
+      <Hsp_midline>  FL+ +LAL PRL+CN  IS HCNL L GSSDS ASAS VAGITG+RHH  L  VFL ET F H+GQA L+L TSGD P  ASQS  ITG+SH AW</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>5.75357</Hsp_evalue>
+      <Hsp_query-from>582</Hsp_query-from>
+      <Hsp_query-to>830</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>120</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>TELLSVNNGAFNIFIDSFFEMESR--SVAQAGLQLLDLNPLQPPPPGFERFFCLSLLSSWDYRCAPPCPTNFGIF-RDRVSPCWSG</Hsp_qseq>
+      <Hsp_hseq>SQVAGITGSRHHTWLSFVFLVETRFHHIGQAGLELLTSGD---PPTLASQSAGITGMSHHAWH-APSCPTNFCFFSRDGVSSCWPG</Hsp_hseq>
+      <Hsp_midline>+++  +     + ++   F +E+R   + QAGL+LL       PP    +   ++ +S   +  AP CPTNF  F RD VS CW G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|355749856|gb|EHH54194.1|</Hit_id>
+  <Hit_def>hypothetical protein EGM_14979, partial [Macaca fascicularis]</Hit_def>
+  <Hit_accession>EHH54194</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.079</Hsp_bit-score>
+      <Hsp_score>279</Hsp_score>
+      <Hsp_evalue>1.65645e-26</Hsp_evalue>
+      <Hsp_query-from>494</Hsp_query-from>
+      <Hsp_query-to>781</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>97</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>LFLKWSLALLPRLDCNCSISTHCNLRLRGSSDSSASAS*VAGITGARHHAQLILVFL-ETGFLHVGQAVLKLPTSGDQPVSASQSVEITGVSHCAWP</Hsp_qseq>
+      <Hsp_hseq>IYLRQILALLPRLECNGVILAHCNLCLLGSSYSPASASQVAGITGMHHHTQLIFVFLVEKVFHHVGQAGLKLLTTGDPPTSASQSAGITGMSHRAQP</Hsp_hseq>
+      <Hsp_midline>++L+  LALLPRL+CN  I  HCNL L GSS S ASAS VAGITG  HH QLI VFL E  F HVGQA LKL T+GD P SASQS  ITG+SH A P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|10437485|dbj|BAB15056.1|</Hit_id>
+  <Hit_def>unnamed protein product [Homo sapiens]</Hit_def>
+  <Hit_accession>BAB15056</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.849</Hsp_bit-score>
+      <Hsp_score>281</Hsp_score>
+      <Hsp_evalue>1.75675e-26</Hsp_evalue>
+      <Hsp_query-from>464</Hsp_query-from>
+      <Hsp_query-to>778</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>113</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>FLKWSLALLPRLDCNCSISTHCNLRLRGSSDSSASAS*VAGITGARHHAQLILVFL-ETGFLHVGQAVLKLPTSGDQPVSASQSVEITGVSHCAWP-ILLKLLRLTF</Hsp_qseq>
+      <Hsp_hseq>FLGQGLTLSPRLECSSTISAHCNLHLLGSSNSPVAASPVAGTTGTCHHDWLIFVFLVETGFHHIGQTGLEFLTSGDPPTLASKSAGITGVSHCAWPTFLLNDMRHSF</Hsp_hseq>
+      <Hsp_midline>FL   L L PRL+C+ +IS HCNL L GSS+S  +AS VAG TG  HH  LI VFL ETGF H+GQ  L+  TSGD P  AS+S  ITGVSHCAWP  LL  +R +F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|426396248|ref|XP_004064360.1|</Hit_id>
+  <Hit_def>PREDICTED: putative uncharacterized protein encoded by LINC00269-like [Gorilla gorilla gorilla]</Hit_def>
+  <Hit_accession>XP_004064360</Hit_accession>
+  <Hit_len>174</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.005</Hsp_bit-score>
+      <Hsp_score>284</Hsp_score>
+      <Hsp_evalue>1.94669e-26</Hsp_evalue>
+      <Hsp_query-from>494</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>72</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>94</Hsp_align-len>
+      <Hsp_qseq>KWSLALLPRLDCNCSISTHCNLRLRGSSDSSASAS*VAGITGARHHAQLILVF-LETGFLHVGQAVLKLPTSGDQPVSASQSVEITGVSHCAWP</Hsp_qseq>
+      <Hsp_hseq>RWSLTLLPRLECSGTISAHYNLRLLGSSNSPVSASQVAGTTEACHHTRLIFVFSVETGFHHVGQAGLKLLTSGDPPASASQSAGITGVSHSAQP</Hsp_hseq>
+      <Hsp_midline>+WSL LLPRL+C+ +IS H NLRL GSS+S  SAS VAG T A HH +LI VF +ETGF HVGQA LKL TSGD P SASQS  ITGVSH A P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|21753371|dbj|BAC04333.1|</Hit_id>
+  <Hit_def>unnamed protein product [Homo sapiens]</Hit_def>
+  <Hit_accession>BAC04333</Hit_accession>
+  <Hit_len>129</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.464</Hsp_bit-score>
+      <Hsp_score>280</Hsp_score>
+      <Hsp_evalue>2.54322e-26</Hsp_evalue>
+      <Hsp_query-from>455</Hsp_query-from>
+      <Hsp_query-to>808</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>122</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>119</Hsp_align-len>
+      <Hsp_qseq>TVLLTFLLILFLKWSLALLPRLDCNCSISTHCNLRLRGSSDSSASAS*VAGITGARHHAQLILVFL-ETGFLHVGQAVLKLPTSGDQPVSASQSVEITGVSHCAWPILLKLLRLTFGDC</Hsp_qseq>
+      <Hsp_hseq>SVIFFIVLFLFLRWSLPLSPRPECGGTTSDHCNLCLSGSSDSPASASRIAGITGVYHHAWLLFVFLVEMGFHYIGQAGLELLTSSDPPILVSQSAVITGLSHRARPFF-----ILFGFC</Hsp_hseq>
+      <Hsp_midline>+V+   +L LFL+WSL L PR +C  + S HCNL L GSSDS ASAS +AGITG  HHA L+ VFL E GF ++GQA L+L TS D P+  SQS  ITG+SH A P       + FG C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|297276872|ref|XP_002801242.1|</Hit_id>
+  <Hit_def>PREDICTED: putative uncharacterized protein CXorf62-like [Macaca mulatta]</Hit_def>
+  <Hit_accession>XP_002801242</Hit_accession>
+  <Hit_len>115</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>111.694</Hsp_bit-score>
+      <Hsp_score>278</Hsp_score>
+      <Hsp_evalue>2.9378e-26</Hsp_evalue>
+      <Hsp_query-from>497</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>110</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>93</Hsp_align-len>
+      <Hsp_qseq>KWSLALLPRLDCNCSISTHCNLRLRGSSDSSASAS*VAGITGARHHAQLILVFL-ETGFLHVGQAVLKLPTSGDQPVSASQSVEITGVSHCAW</Hsp_qseq>
+      <Hsp_hseq>RWSFLLLLRLEYNGVVSAHCNLCLPGSSESPASASQVAGITGANHHAQLIFVFLVETGFHHVGQAGLQLLTSGDPPSSALQSAGITGTSQSAW</Hsp_hseq>
+      <Hsp_midline>+WS  LL RL+ N  +S HCNL L GSS+S ASAS VAGITGA HHAQLI VFL ETGF HVGQA L+L TSGD P SA QS  ITG S  AW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|355563670|gb|EHH20232.1|</Hit_id>
+  <Hit_def>hypothetical protein EGK_03041, partial [Macaca mulatta]</Hit_def>
+  <Hit_accession>EHH20232</Hit_accession>
+  <Hit_len>95</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>110.538</Hsp_bit-score>
+      <Hsp_score>275</Hsp_score>
+      <Hsp_evalue>4.29223e-26</Hsp_evalue>
+      <Hsp_query-from>506</Hsp_query-from>
+      <Hsp_query-to>784</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>94</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>94</Hsp_align-len>
+      <Hsp_qseq>ILFLKWSLALLPRLDCNCSISTHCNLRLRGSSDSSASAS*VAGITGARHHAQLILVFL-ETGFLHVGQAVLKLPTSGDQPVSASQSVEITGVSH</Hsp_qseq>
+      <Hsp_hseq>FFFLRWSLTVSPRLECSGAISAHCNLCLPGSSDSPTSASRVAGTTGTPHHAWLIFVFLVETGFHHVGQAGLELLTSSDLPALASQSAGITGVSH</Hsp_hseq>
+      <Hsp_midline>  FL+WSL + PRL+C+ +IS HCNL L GSSDS  SAS VAG TG  HHA LI VFL ETGF HVGQA L+L TS D P  ASQS  ITGVSH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|355561739|gb|EHH18371.1|</Hit_id>
+  <Hit_def>hypothetical protein EGK_14950, partial [Macaca mulatta]</Hit_def>
+  <Hit_accession>EHH18371</Hit_accession>
+  <Hit_len>97</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.1149</Hsp_bit-score>
+      <Hsp_score>209</Hsp_score>
+      <Hsp_evalue>5.03714e-26</Hsp_evalue>
+      <Hsp_query-from>621</Hsp_query-from>
+      <Hsp_query-to>779</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>FFEMESRSVAQAGLQLLDLNPLQPPPPGFERFFCLSLLSSWDYRCAPPCPTNF</Hsp_qseq>
+      <Hsp_hseq>FFETESRSVTQAGVQWYDLGSLQPPPPGFKRFSCLSLPSSWDYRHAPPHPANF</Hsp_hseq>
+      <Hsp_midline>FFE ESRSV QAG+Q  DL  LQPPPPGF+RF CLSL SSWDYR APP P NF</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>61.6178</Hsp_bit-score>
+      <Hsp_score>148</Hsp_score>
+      <Hsp_evalue>5.03714e-26</Hsp_evalue>
+      <Hsp_query-from>494</Hsp_query-from>
+      <Hsp_query-to>646</Hsp_query-to>
+      <Hsp_hit-from>47</Hsp_hit-from>
+      <Hsp_hit-to>97</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>51</Hsp_align-len>
+      <Hsp_qseq>ARHHAQLILVFLETGFLHVGQAVLKLPTSGDQPVSASQSVEITGVSHCAWP</Hsp_qseq>
+      <Hsp_hseq>APPHPANFVFLVEMGFLHVGQAGLKLRTSGDPPTSASQSAGIIGVSHHAWP</Hsp_hseq>
+      <Hsp_midline>A  H    +  +E GFLHVGQA LKL TSGD P SASQS  I GVSH AWP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|355709996|gb|EHH31460.1|</Hit_id>
+  <Hit_def>hypothetical protein EGK_12542, partial [Macaca mulatta]</Hit_def>
+  <Hit_accession>EHH31460</Hit_accession>
+  <Hit_len>101</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>110.153</Hsp_bit-score>
+      <Hsp_score>274</Hsp_score>
+      <Hsp_evalue>7.86168e-26</Hsp_evalue>
+      <Hsp_query-from>506</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>101</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>KWSLALLPRLDCNCSISTHCNLRLRGSSDSSASAS*VAGITGARHHAQLILVF---LETGFLHVGQAVLKLPTSGDQPVSASQSVEITGVSH</Hsp_qseq>
+      <Hsp_hseq>RWSLALLPRLECSGAISAHCNLHLLGSSDSPASVSWVAGITGTHHHTWLIFFFVFLVEVGFHHVGQAGLELLTSGDLPTLASQSAGITGMSH</Hsp_hseq>
+      <Hsp_midline>+WSLALLPRL+C+ +IS HCNL L GSSDS AS S VAGITG  HH  LI  F   +E GF HVGQA L+L TSGD P  ASQS  ITG+SH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|34526292|dbj|BAC85220.1|</Hit_id>
+  <Hit_def>unnamed protein product [Homo sapiens]</Hit_def>
+  <Hit_accession>BAC85220</Hit_accession>
+  <Hit_len>140</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>111.309</Hsp_bit-score>
+      <Hsp_score>277</Hsp_score>
+      <Hsp_evalue>8.0111e-26</Hsp_evalue>
+      <Hsp_query-from>485</Hsp_query-from>
+      <Hsp_query-to>766</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>123</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>95</Hsp_align-len>
+      <Hsp_qseq>SLALLPRLDCNCSISTHCNLRLRGSSDSSASAS*VAGITGARHHAQLILVFL-ETGFLHVGQAVLKLPTSGDQPVSASQSVEITGVSHCAWPILL</Hsp_qseq>
+      <Hsp_hseq>SLALLPKLECRGTISAHCNLHLPGSSDFPASASQVAGTTGACHHAWLIFVFLVEAGFHHVGQDGLELLTSNDPPTLASQSAGITGVSHRAWPAVV</Hsp_hseq>
+      <Hsp_midline>SLALLP+L+C  +IS HCNL L GSSD  ASAS VAG TGA HHA LI VFL E GF HVGQ  L+L TS D P  ASQS  ITGVSH AWP ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|545688529|ref|NP_001270190.1|</Hit_id>
+  <Hit_def>uncharacterized protein LOC101866011 [Macaca fascicularis] &gt;gi|90086203|dbj|BAE91654.1| unnamed protein product [Macaca fascicularis]</Hit_def>
+  <Hit_accession>NP_001270190</Hit_accession>
+  <Hit_len>115</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>110.538</Hsp_bit-score>
+      <Hsp_score>275</Hsp_score>
+      <Hsp_evalue>9.63678e-26</Hsp_evalue>
+      <Hsp_query-from>497</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>110</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>93</Hsp_align-len>
+      <Hsp_qseq>KWSLALLPRLDCNCSISTHCNLRLRGSSDSSASAS*VAGITGARHHAQLILVFL-ETGFLHVGQAVLKLPTSGDQPVSASQSVEITGVSHCAW</Hsp_qseq>
+      <Hsp_hseq>RWSFLLLLRLEYNGVVSAHCNLCLPGSSESPASASQVAGIAGANHHAQLIFVFLVETGFRHVGQAGLQLLTSGDPPSSALQSAGITGTSQSAW</Hsp_hseq>
+      <Hsp_midline>+WS  LL RL+ N  +S HCNL L GSS+S ASAS VAGI GA HHAQLI VFL ETGF HVGQA L+L TSGD P SA QS  ITG S  AW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|74750922|sp|Q8N2A0.1|CX062_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Putative uncharacterized protein encoded by LINC00269 [Homo sapiens] &gt;gi|21749185|dbj|BAC03549.1| unnamed protein product [Homo sapiens] &gt;gi|119625771|gb|EAX05366.1| hCG1991754 [Homo sapiens]</Hit_def>
+  <Hit_accession>Q8N2A0</Hit_accession>
+  <Hit_len>174</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>110.538</Hsp_bit-score>
+      <Hsp_score>275</Hsp_score>
+      <Hsp_evalue>3.68362e-25</Hsp_evalue>
+      <Hsp_query-from>494</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>72</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>94</Hsp_align-len>
+      <Hsp_qseq>KWSLALLPRLDCNCSISTHCNLRLRGSSDSSASAS*VAGITGARHHAQLILVF-LETGFLHVGQAVLKLPTSGDQPVSASQSVEITGVSHCAWP</Hsp_qseq>
+      <Hsp_hseq>RWSLTLLPRLECSGTISAHYNLRLLGSSNSPVSASQVAETTEACHHTRLIFVFSVETGFHHVGQAGLKLLTSGDPPASASQSAGITGVSHSARP</Hsp_hseq>
+      <Hsp_midline>+WSL LLPRL+C+ +IS H NLRL GSS+S  SAS VA  T A HH +LI VF +ETGF HVGQA LKL TSGD P SASQS  ITGVSH A P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|441631293|ref|XP_004089607.1|</Hit_id>
+  <Hit_def>PREDICTED: putative uncharacterized protein encoded by LINC00269-like [Nomascus leucogenys]</Hit_def>
+  <Hit_accession>XP_004089607</Hit_accession>
+  <Hit_len>144</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>109.768</Hsp_bit-score>
+      <Hsp_score>273</Hsp_score>
+      <Hsp_evalue>3.85267e-25</Hsp_evalue>
+      <Hsp_query-from>476</Hsp_query-from>
+      <Hsp_query-to>766</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>127</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>SLALLPRLDCNCSISTHCNLRLRGSSDSSASAS*VAGITGARHHAQLILVFL-ETGFLHVGQAVLKLPTSGDQPVSASQSVEITGVSHCAWPILLKLL</Hsp_qseq>
+      <Hsp_hseq>SLALLPKLECHGTTSAYCNLHLPGSSDSPASASQVAGTTGTCHHAWLIFVFLVEAGFHHVGQDGLELLTSNDPPTLASQSAGITGVSHRAWPAVVVFL</Hsp_hseq>
+      <Hsp_midline>SLALLP+L+C+ + S +CNL L GSSDS ASAS VAG TG  HHA LI VFL E GF HVGQ  L+L TS D P  ASQS  ITGVSH AWP ++  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|34526959|dbj|BAC85304.1|</Hit_id>
+  <Hit_def>unnamed protein product [Homo sapiens]</Hit_def>
+  <Hit_accession>BAC85304</Hit_accession>
+  <Hit_len>137</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.997</Hsp_bit-score>
+      <Hsp_score>271</Hsp_score>
+      <Hsp_evalue>4.45729e-25</Hsp_evalue>
+      <Hsp_query-from>455</Hsp_query-from>
+      <Hsp_query-to>790</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>115</Hsp_align-len>
+      <Hsp_qseq>LLILFLKWSLALLPRLDCNCSISTHCNLRLRGSSDSSASAS*VAGITGARHHAQLI-LVFL-ETGFLHVGQAVLKLPTSGDQPVSASQSVEITGVSHCAWPI-LLKLLRLTFGDC</Hsp_qseq>
+      <Hsp_hseq>FFFFFLRWSLTLSSRLECSGAILAHCNLRLLGPNEPPASASRVAGITGACHHAWLIFLVFLVEMGFRHIGQAGLKLLASSDVPISASQSVGITGMSHHARPAPFFTQVKCRFSEC</Hsp_hseq>
+      <Hsp_midline>    FL+WSL L  RL+C+ +I  HCNLRL G ++  ASAS VAGITGA HHA LI LVFL E GF H+GQA LKL  S D P+SASQSV ITG+SH A P      ++  F +C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|355750016|gb|EHH54354.1|</Hit_id>
+  <Hit_def>hypothetical protein EGM_15176, partial [Macaca fascicularis]</Hit_def>
+  <Hit_accession>EHH54354</Hit_accession>
+  <Hit_len>104</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>107.842</Hsp_bit-score>
+      <Hsp_score>268</Hsp_score>
+      <Hsp_evalue>5.50817e-25</Hsp_evalue>
+      <Hsp_query-from>494</Hsp_query-from>
+      <Hsp_query-to>775</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>104</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>LKWSLALLPRLDCNCSISTHCNLRLRGSSDSSASAS*VAGITGARHHAQL---ILVFLETGFLHVGQAVLKLPTSGDQPVSASQSVEITGVSHCAWP</Hsp_qseq>
+      <Hsp_hseq>LRRSLALSPRLECSGRISAHCKLRLPGLRHSPASASQVAGTTGARHHARLVFCIYFLIETGFHHVGQSGLELLNSGDPPTSTSQSTGITGMSHCALP</Hsp_hseq>
+      <Hsp_midline>L+ SLAL PRL+C+  IS HC LRL G   S ASAS VAG TGARHHA+L   I   +ETGF HVGQ+ L+L  SGD P S SQS  ITG+SHCA P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|355704739|gb|EHH30664.1|</Hit_id>
+  <Hit_def>hypothetical protein EGK_20417, partial [Macaca mulatta]</Hit_def>
+  <Hit_accession>EHH30664</Hit_accession>
+  <Hit_len>99</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>107.457</Hsp_bit-score>
+      <Hsp_score>267</Hsp_score>
+      <Hsp_evalue>6.55494e-25</Hsp_evalue>
+      <Hsp_query-from>494</Hsp_query-from>
+      <Hsp_query-to>787</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>99</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>LILFLKWSLALLPRLDCNCSISTHCNLRLRGSSDSSASAS*VAGITGARHHAQLILVFL-ETGFLHVGQAVLKLPTSGDQPVSASQSVEITGVSHCAWP</Hsp_qseq>
+      <Hsp_hseq>FFFFLIQSLALSPRLECSGVILVHCNLCLPGSSDSSASASPVAGITGTNHHARLIFVFLVETGFYHVGQAGLNLLTSGDSPASASQNAGITGVSHRAWP</Hsp_hseq>
+      <Hsp_midline>   FL  SLAL PRL+C+  I  HCNL L GSSDSSASAS VAGITG  HHA+LI VFL ETGF HVGQA L L TSGD P SASQ+  ITGVSH AWP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|119585041|gb|EAW64637.1|</Hit_id>
+  <Hit_def>hCG2039009, partial [Homo sapiens]</Hit_def>
+  <Hit_accession>EAW64637</Hit_accession>
+  <Hit_len>120</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>107.842</Hsp_bit-score>
+      <Hsp_score>268</Hsp_score>
+      <Hsp_evalue>8.22313e-25</Hsp_evalue>
+      <Hsp_query-from>494</Hsp_query-from>
+      <Hsp_query-to>796</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>102</Hsp_align-len>
+      <Hsp_qseq>TFLLILFLKWSLALLPRLDCNCSISTHCNLRLRGSSDSSASAS*VAGITGARHHAQLILVFL-ETGFLHVGQAVLKLPTSGDQPVSASQSVEITGVSHCAWP</Hsp_qseq>
+      <Hsp_hseq>VYVFWGFLRLSLALSPKLECSGMIWAHCNLCLLGSRDSPASASLVAGITGTRHYAWLIFVLLVEMGFRHVGQAGLKLLTSGDLPTSASQSAGIIGVSHHARP</Hsp_hseq>
+      <Hsp_midline> ++   FL+ SLAL P+L+C+  I  HCNL L GS DS ASAS VAGITG RH+A LI V L E GF HVGQA LKL TSGD P SASQS  I GVSH A P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|119622549|gb|EAX02144.1|</Hit_id>
+  <Hit_def>hCG1991981 [Homo sapiens]</Hit_def>
+  <Hit_accession>EAX02144</Hit_accession>
+  <Hit_len>136</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>107.071</Hsp_bit-score>
+      <Hsp_score>266</Hsp_score>
+      <Hsp_evalue>2.75408e-24</Hsp_evalue>
+      <Hsp_query-from>479</Hsp_query-from>
+      <Hsp_query-to>775</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>126</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>LKWSLALLPRLDCNCSISTHCNLRLRGSSDSSASAS*VAGITGARHHAQLILVFL-ETGFLHVGQAVLKLPTSGDQPVSASQSVEITGVSHCAWPILLKL</Hsp_qseq>
+      <Hsp_hseq>LRQSLTLSSRLECSGAILACCNLHLPGSSDSPTSASRVAGITGMRHHAWLIFVFLVETGFRHVGQARLELLASSDLPASASQSAGITNVSYYAWSQLLKI</Hsp_hseq>
+      <Hsp_midline>L+ SL L  RL+C+ +I   CNL L GSSDS  SAS VAGITG RHHA LI VFL ETGF HVGQA L+L  S D P SASQS  IT VS+ AW  LLK+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>7.47994</Hsp_evalue>
+      <Hsp_query-from>365</Hsp_query-from>
+      <Hsp_query-to>577</Hsp_query-to>
+      <Hsp_hit-from>49</Hsp_hit-from>
+      <Hsp_hit-to>117</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>LKLPTSGDQPVSASQSVEITGVSHCAWPILLKLLRLTF---GDCQLNCPAAELLRAKALHGILSSLSGVSRLTH</Hsp_qseq>
+      <Hsp_hseq>LHLPGSSDSPTSASRVAGITGMRHHAWLIFVFLVETGFRHVGQARL-----ELLASSDLPASASQSAGITNVSY</Hsp_hseq>
+      <Hsp_midline>L LP S D P SAS+   ITG+ H AW I + L+   F   G  +L     ELL +  L    S  +G++ +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|635127927|ref|XP_007985368.1|</Hit_id>
+  <Hit_def>PREDICTED: uncharacterized protein LOC103229289 [Chlorocebus sabaeus]</Hit_def>
+  <Hit_accession>XP_007985368</Hit_accession>
+  <Hit_len>323</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>111.309</Hsp_bit-score>
+      <Hsp_score>277</Hsp_score>
+      <Hsp_evalue>2.90594e-24</Hsp_evalue>
+      <Hsp_query-from>494</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>218</Hsp_hit-from>
+      <Hsp_hit-to>311</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>94</Hsp_align-len>
+      <Hsp_qseq>KWSLALLPRLDCNCSISTHCNLRLRGSSDSSASAS*VAGITGARHHAQLILVFL-ETGFLHVGQAVLKLPTSGDQPVSASQSVEITGVSHCAWP</Hsp_qseq>
+      <Hsp_hseq>RQSLTLSPRLECSGTISAHCNLCLSGSSDSPASASQVAGTTGAHHHAWLIFVFLVETGFHRIGQAGLEFLTSSDPPVSASQSAGITGMNHHTWP</Hsp_hseq>
+      <Hsp_midline>+ SL L PRL+C+ +IS HCNL L GSSDS ASAS VAG TGA HHA LI VFL ETGF  +GQA L+  TS D PVSASQS  ITG++H  WP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|355782636|gb|EHH64557.1|</Hit_id>
+  <Hit_def>hypothetical protein EGM_17802, partial [Macaca fascicularis]</Hit_def>
+  <Hit_accession>EHH64557</Hit_accession>
+  <Hit_len>93</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>105.531</Hsp_bit-score>
+      <Hsp_score>262</Hsp_score>
+      <Hsp_evalue>3.17417e-24</Hsp_evalue>
+      <Hsp_query-from>533</Hsp_query-from>
+      <Hsp_query-to>778</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>83</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>83</Hsp_align-len>
+      <Hsp_qseq>FLKWSLALLPRLDCNCSISTHCNLRLRGSSDSSASAS*VAGITGARHHAQLILVFL-ETGFLHVGQAVLKLPTSGDQPVSASQ</Hsp_qseq>
+      <Hsp_hseq>FLRWSLTLLPRLECSGAISAHCNLCLPGSSNSPASASQIAGITGACHLAQLIFVFLVEMGFHHVGQSGLKLLTSGDPPASASQ</Hsp_hseq>
+      <Hsp_midline>FL+WSL LLPRL+C+ +IS HCNL L GSS+S ASAS +AGITGA H AQLI VFL E GF HVGQ+ LKL TSGD P SASQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|7020625|dbj|BAA91205.1|</Hit_id>
+  <Hit_def>unnamed protein product [Homo sapiens] &gt;gi|119578355|gb|EAW57951.1| hypothetical protein FLJ20489, isoform CRA_b [Homo sapiens] &gt;gi|133777216|gb|AAH26344.2| Solute carrier family 48 (heme transporter), member 1 [Homo sapiens]</Hit_def>
+  <Hit_accession>BAA91205</Hit_accession>
+  <Hit_len>239</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>109.383</Hsp_bit-score>
+      <Hsp_score>272</Hsp_score>
+      <Hsp_evalue>3.72809e-24</Hsp_evalue>
+      <Hsp_query-from>473</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>121</Hsp_hit-from>
+      <Hsp_hit-to>221</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>KWSLALLPRLDCNCSISTHCNLRLRGSSDSSASAS*VAGITGARHHAQLILVFL-ETGFLHVGQAVLKLPTSGDQPVSASQSVEITGVSHCAWPILLKLLR</Hsp_qseq>
+      <Hsp_hseq>RWSLTLSPRLECSSAISAHCNLRLPGSSNSPALASQVAGITGICHHARQIFVFLVETGFCHVGQAGLELLISGDSPASAFQSAGIIGVSHRARPGSVFLAR</Hsp_hseq>
+      <Hsp_midline>+WSL L PRL+C+ +IS HCNLRL GSS+S A AS VAGITG  HHA+ I VFL ETGF HVGQA L+L  SGD P SA QS  I GVSH A P  + L R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|355557511|gb|EHH14291.1|</Hit_id>
+  <Hit_def>hypothetical protein EGK_00186, partial [Macaca mulatta]</Hit_def>
+  <Hit_accession>EHH14291</Hit_accession>
+  <Hit_len>87</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>104.76</Hsp_bit-score>
+      <Hsp_score>260</Hsp_score>
+      <Hsp_evalue>5.10199e-24</Hsp_evalue>
+      <Hsp_query-from>533</Hsp_query-from>
+      <Hsp_query-to>790</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>87</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+      <Hsp_qseq>LLILFLKWSLALLPRLDCNCSISTHCNLRLRGSSDSSASAS*VAGITGARHHAQLILVFL-ETGFLHVGQAVLKLPTSGDQPVSASQ</Hsp_qseq>
+      <Hsp_hseq>LFFFFLRWSLALLPRLECSGTISAHCNLHLPGSRDSPASAFQIAGTTDTCHHAWLIFVFLVETGFRHVGQAGLELLTSSDPPASASQ</Hsp_hseq>
+      <Hsp_midline>L   FL+WSLALLPRL+C+ +IS HCNL L GS DS ASA  +AG T   HHA LI VFL ETGF HVGQA L+L TS D P SASQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|355565537|gb|EHH21966.1|</Hit_id>
+  <Hit_def>hypothetical protein EGK_05144, partial [Macaca mulatta]</Hit_def>
+  <Hit_accession>EHH21966</Hit_accession>
+  <Hit_len>99</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>104.76</Hsp_bit-score>
+      <Hsp_score>260</Hsp_score>
+      <Hsp_evalue>6.25499e-24</Hsp_evalue>
+      <Hsp_query-from>506</Hsp_query-from>
+      <Hsp_query-to>790</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>99</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>LLILFLKWSLALLPRLDCNCSISTHCNLRLRGSSDSSASAS*VAGITGARHHAQLILVFL----ETGFLHVGQAVLKLPTSGDQPVSASQSVEITGVSH</Hsp_qseq>
+      <Hsp_hseq>FFFFFLRWSLALSPRLECSGAVLAHCNLRLPGSSSSPASASQVAGITGAHHHTWLIFVFFVVLVETGFYHVGQAGLELLTSSDPPASVSQSAGITGMSH</Hsp_hseq>
+      <Hsp_midline>    FL+WSLAL PRL+C+ ++  HCNLRL GSS S ASAS VAGITGA HH  LI VF     ETGF HVGQA L+L TS D P S SQS  ITG+SH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|355564596|gb|EHH21096.1|</Hit_id>
+  <Hit_def>hypothetical protein EGK_04085, partial [Macaca mulatta]</Hit_def>
+  <Hit_accession>EHH21096</Hit_accession>
+  <Hit_len>104</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>104.76</Hsp_bit-score>
+      <Hsp_score>260</Hsp_score>
+      <Hsp_evalue>6.33297e-24</Hsp_evalue>
+      <Hsp_query-from>494</Hsp_query-from>
+      <Hsp_query-to>766</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>103</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>SLALLPRLDCNCSISTHCNLRLRGSSDSSASAS*VAGITGARHHAQLILVFL-ETGFLHVGQAVLKLPTSGDQPVSASQSVEITGVSHCAWP</Hsp_qseq>
+      <Hsp_hseq>SLTPSPRLQCSGVILDHCNLRLLGSSDSPASASQVAGITGMCHHTWLIFVFLVEMGFHHVGQTGLKLLTSGDPPTLASQSAGITGVSHCTLP</Hsp_hseq>
+      <Hsp_midline>SL   PRL C+  I  HCNLRL GSSDS ASAS VAGITG  HH  LI VFL E GF HVGQ  LKL TSGD P  ASQS  ITGVSHC  P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|355746258|gb|EHH50883.1|</Hit_id>
+  <Hit_def>hypothetical protein EGM_01778, partial [Macaca fascicularis]</Hit_def>
+  <Hit_accession>EHH50883</Hit_accession>
+  <Hit_len>100</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>104.375</Hsp_bit-score>
+      <Hsp_score>259</Hsp_score>
+      <Hsp_evalue>7.44128e-24</Hsp_evalue>
+      <Hsp_query-from>494</Hsp_query-from>
+      <Hsp_query-to>784</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>100</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>ILFLKWSLALLPRLDCNCS--ISTHCNLRLRGSSDSSASAS*VAGITGARHHAQLILVFL-ETGFLHVGQAVLKLPTSGDQPVSASQSVEITGVSHCAWP</Hsp_qseq>
+      <Hsp_hseq>FFFPRWSLALSPRLELECSGMISAHSNLHLLGSSDSPASASQAAGITGACRHAWLLFVFLVEMGFHHVGQAGLRLLTSGDLPTLASQSAGIIGVSHRAQP</Hsp_hseq>
+      <Hsp_midline>  F +WSLAL PRL+  CS  IS H NL L GSSDS ASAS  AGITGA  HA L+ VFL E GF HVGQA L+L TSGD P  ASQS  I GVSH A P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|355757016|gb|EHH60624.1|</Hit_id>
+  <Hit_def>hypothetical protein EGM_12020, partial [Macaca fascicularis]</Hit_def>
+  <Hit_accession>EHH60624</Hit_accession>
+  <Hit_len>92</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>104.375</Hsp_bit-score>
+      <Hsp_score>259</Hsp_score>
+      <Hsp_evalue>7.5032e-24</Hsp_evalue>
+      <Hsp_query-from>548</Hsp_query-from>
+      <Hsp_query-to>787</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>81</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>LILFLKWSLALLPRLDCNCSISTHCNLRLRGSSDSSASAS*VAGITGARHHAQLILVFL-ETGFLHVGQAVLKLPTSGDQP</Hsp_qseq>
+      <Hsp_hseq>FFFFLRWSLALLPRLECSGAISAHCNLHLLGSSHSPASASQVAGMTGTRHHVQIIFVFLVEMGFHHVGHAGLELLTSGDPP</Hsp_hseq>
+      <Hsp_midline>   FL+WSLALLPRL+C+ +IS HCNL L GSS S ASAS VAG+TG RHH Q+I VFL E GF HVG A L+L TSGD P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|675692394|ref|XP_008957879.1|</Hit_id>
+  <Hit_def>PREDICTED: zinc finger protein ENSP00000375192-like [Pan paniscus] &gt;gi|675692399|ref|XP_008957880.1| PREDICTED: zinc finger protein ENSP00000375192-like [Pan paniscus] &gt;gi|34531772|dbj|BAC86222.1| unnamed protein product [Homo sapiens]</Hit_def>
+  <Hit_accession>XP_008957879</Hit_accession>
+  <Hit_len>164</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>106.301</Hsp_bit-score>
+      <Hsp_score>264</Hsp_score>
+      <Hsp_evalue>7.81743e-24</Hsp_evalue>
+      <Hsp_query-from>464</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>120</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>KWSLALLPRLDCNCSISTHCNLRLRGSSDSSASAS*VAGITGARHHAQLILVFL-ETGFLHVGQAVLKLPTSGDQPVSASQSVEITGVSHCAWPILLKLLRLTF</Hsp_qseq>
+      <Hsp_hseq>RQSLTLSAWLECSGTISAHCNLRLPGSSNSPASASRVAGITGMCHHARLIFVFLVEMGFHHVGEAGLELLTSGNPPASASQSAGITSVSHRARPTVFKSVETSF</Hsp_hseq>
+      <Hsp_midline>+ SL L   L+C+ +IS HCNLRL GSS+S ASAS VAGITG  HHA+LI VFL E GF HVG+A L+L TSG+ P SASQS  IT VSH A P + K +  +F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|426361666|ref|XP_004048022.1|</Hit_id>
+  <Hit_def>PREDICTED: putative uncharacterized protein encoded by LINC00269-like [Gorilla gorilla gorilla]</Hit_def>
+  <Hit_accession>XP_004048022</Hit_accession>
+  <Hit_len>106</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>104.76</Hsp_bit-score>
+      <Hsp_score>260</Hsp_score>
+      <Hsp_evalue>8.12194e-24</Hsp_evalue>
+      <Hsp_query-from>500</Hsp_query-from>
+      <Hsp_query-to>748</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>100</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>RLDCNCSISTHCNLRLRGSSDSSASAS*VAGITGARHHAQLILVFL-ETGFLHVGQAVLKLPTSGDQPVSASQSVEITGVSHCA</Hsp_qseq>
+      <Hsp_hseq>KLECNGIISAHRNLRLPGSSDSPASASGVDGTTGMHHHARLIFVFLVETGFLHVGQAGLELLTSGDLPASASQSARITGLSHRA</Hsp_hseq>
+      <Hsp_midline>+L+CN  IS H NLRL GSSDS ASAS V G TG  HHA+LI VFL ETGFLHVGQA L+L TSGD P SASQS  ITG+SH A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>59435263</Statistics_db-num>
+      <Statistics_db-len>21254927129</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+
