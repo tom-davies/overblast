@@ -1,0 +1,110 @@
+LOCUS       XM_001339187            2646 bp    mRNA    linear   VRT 24-SEP-2014
+DEFINITION  PREDICTED: Danio rerio CD79a molecule, immunoglobulin-associated
+            alpha (cd79a), mRNA.
+ACCESSION   XM_001339187
+VERSION     XM_001339187.3  GI:688591244
+DBLINK      BioProject: PRJNA13922
+KEYWORDS    RefSeq.
+SOURCE      Danio rerio (zebrafish)
+  ORGANISM  Danio rerio
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Ostariophysi;
+            Cypriniformes; Cyprinidae; Danio.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_001877665.4) annotated using gene prediction method: Gnomon,
+            supported by EST evidence.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            On Sep 24, 2014 this sequence version replaced gi:528504057.
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Danio rerio Annotation Release 104
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 6.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2646
+                     /organism="Danio rerio"
+                     /mol_type="mRNA"
+                     /strain="Tuebingen"
+                     /db_xref="taxon:7955"
+                     /chromosome="16"
+     gene            1..2646
+                     /gene="cd79a"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 3 ESTs, 3 Proteins, and 100%
+                     coverage of the annotated genomic feature by RNAseq
+                     alignments, including 6 samples with support for all
+                     annotated introns"
+                     /db_xref="GeneID:798792"
+                     /db_xref="ZFIN:ZDB-GENE-100922-201"
+     CDS             1744..2421
+                     /gene="cd79a"
+                     /codon_start=1
+                     /product="B-cell antigen receptor complex-associated
+                     protein alpha chain"
+                     /protein_id="XP_001339223.1"
+                     /db_xref="GI:125839720"
+                     /db_xref="GeneID:798792"
+                     /db_xref="ZFIN:ZDB-GENE-100922-201"
+                     /translation="MGFRLVLFLSFFAAVLSGKLEDLQLEPDEPLLRVQVSQEATVRC
+                     CYRCKESPEVSWIKNTPAINGTTMPDLVNFTKNVMNKPEGEKDGVICHSLVFKSVSVN
+                     DMGLYQCKLKHGLLTFFSHGTFLQIYLPLEKTLNLSEGVKNSIITVEGVLLLMCVLIP
+                     GTMLLCKSKKVNKLDRKTEREEENIYEGLNLDDCNSAYHQIQRSIQQGPYEDVACCEE
+                     DIQLEKP"
+ORIGIN      
+        1 atatatatat atatatataa agtatatata tatatattct tagttttcct tttagttgtt
+       61 taattgtttc tctggtatat tttattggca ggggagtagt ttctataaaa gcaggaccaa
+      121 agaagtcgcg aatcgctaac aatgtttaga tatgaaaaca ccttgaaagc tgaaaagggg
+      181 tttaggaagt caccaaaaaa aaaaaaaaaa gtgcatggat tggcttgtta gtttgatgcc
+      241 ttattttgtt tgagacggaa ggaaattgaa attgcttcaa tttgtggaag ggaccagctt
+      301 gtctctcccg ctctcttgtt ttattaggat accacagaga atcagacact tgcaggtttt
+      361 gtctcagagt ttggagacag gaacacagac catcagtttt cttaccagta ctgtaaatgt
+      421 tttcataatg ctactgcgac aggtttttct accattccac caaatgccaa tttctgcagg
+      481 tttttttatc ttattttttg tacgtagtgt gattttaata ttcatgttta agttgaaatt
+      541 gctgatttaa tttgatttat tttagaattg gtttttattt tcccgctctt cgctcgactg
+      601 tttatcttca tcagacttaa tttaaaatgg cttccagaaa agtctggttt tccaaccacg
+      661 ttttggtaca cgtcaatttt tatcagtctt tttttttttt tttttataaa attaccaggc
+      721 gatgatgttt aaagtgccaa cttcttctcc taccggcttt ttattttcat ttttatttgt
+      781 ttaaatgagc gataattcat tttttattca gttttttttg tttgagaact atgtaattac
+      841 aatactatgc attgccaatt atcaagtaag gactgagaga gacaaagtac acccataacc
+      901 atccaaacta ttactcaatt tctgaccttt attttatttt atgtggattt gtgcacattt
+      961 taaacttgat ttgaaagttg ttttcaacaa tggatatccc tatgggctct aaataattga
+     1021 taagagagag ttttgggtgc attctctctc attccttgac agtttcttgt gtatctgtca
+     1081 catatacgta tatatagtga tatatcttgt atgtttaaat ctatttatag ggtgcctttt
+     1141 gcagattggg ttagttttca taatctcatt ttcttttagt tcagatggca gacactgcct
+     1201 tatctggcct ctcctcattt cagtgttaat tgctcatctg atatttggct caatgcccat
+     1261 caaattttag cagttccact catttttgct ctccgaaatg cctgagctct taatgctgag
+     1321 tgctctttgt tagatctttt aaactctctg caatccatga ccgtattttt atgtcatttc
+     1381 ttgtacagga gtccactcaa tacaggcatt ctattgctgt ctgtctatat aaatgattat
+     1441 gcaaggacta ttttgtgtat ttgggctttg atttaatatg taagatacat cagaaaaatg
+     1501 taggtacgtt tttttattat aattttcttt tccttttttt taaataaatg atctaaaaat
+     1561 gacttgagct gttgttgtcc ttattttcag cagagtgttt tcatctgcat gtatgaacca
+     1621 caaagtgaaa cagcagaatg ggtgggtgta gatgatgcag gaaagaatga caaacactca
+     1681 aacggctcat ttcataccta gcagcagttg attttcaata gttaatttgg attatcagag
+     1741 aaaatggggt tcaggctggt gcttttcttg tctttctttg cagctgttct cagtggtaaa
+     1801 ctggaagatc tacaactgga gccggatgag ccattactgc gtgtgcaggt ctctcaagaa
+     1861 gccacagtgc gctgctgcta ccgctgtaaa gaaagccctg aagtcagctg gatcaagaat
+     1921 actcccgcca tcaatggcac cacaatgcct gacttggtaa actttacaaa gaatgtgatg
+     1981 aacaaaccag agggtgaaaa agatggagtt atatgccatt cgctggtctt caaaagcgtc
+     2041 agtgtcaatg atatgggcct gtatcagtgt aaactcaagc acggtttact tacctttttt
+     2101 tcccatggca ccttccttca aatatactta cctttggaga agactttgaa cctcagcgag
+     2161 ggtgtgaaaa acagtattat aacagttgaa ggagtgttgc tgctgatgtg tgtgctgatt
+     2221 ccgggcacca tgctcctctg taagtcaaag aaagtgaata aactggacag gaagacagaa
+     2281 agggaggaag agaatatcta tgagggtctt aatctggatg actgcaactc agcttaccat
+     2341 cagattcagc gctccattca gcaaggccct tatgaggatg tggcttgttg tgaggaagac
+     2401 attcagctgg agaagccgta gctggagatc acaaagctgg gaaatgacaa acacacaagt
+     2461 gaagagtgtg ttgtctccga taaatggtta aatttcagca tttcataagc ttattgtcag
+     2521 tgtgtttttt gctgtcaaat agcttgaata atgtttgtct gagaacttga ataaagcttg
+     2581 tttatgcttt gcaaagacaa atcgaatatg tctgctaatg gtttaaataa aatttaagaa
+     2641 aaataa
+//
+
