@@ -1,8 +1,8 @@
-from Bio import SeqIO, SearchIO
+from Bio import SeqIO, SearchIO, Entrez
 from Bio.Blast import NCBIWWW
 import os
 
-os.system('cls' if os.name == 'nt' else 'clear') #clear screen
+#os.system('cls' if os.name == 'nt' else 'clear') #clear screen
 
 file_gbk = raw_input("genbank file? ")
 # Parse genbank files
@@ -21,8 +21,16 @@ result_handle = open("origin_blast.xml")
 
 blast_table = SearchIO.read('origin_blast.xml', 'blast-xml')
 final_hit = blast_table[-1].id.split("|")
-final_id = final_hit[3]
-print(final_hit)
+final_id = final_hit[1]
+print(final_id)
+
+# Entrez Search
+Entrez.email = "thomas.davies-7@student.manchester.ac.uk"
+search = Entrez.efetch(db="nuccore", id=final_id, retmode="xml")
+records = Entrez.read(search)
+taxon = records[0]["GBSeq_taxonomy"].split("; ")
+print (taxon)
+print (len(taxon))
 
 '''print("Press Any Key to Exit...")
 raw_input()'''
