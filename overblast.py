@@ -1,13 +1,14 @@
 from Bio import SeqIO, SearchIO, Entrez
 from Bio.Blast import NCBIWWW
 import os
+import pdb; pdb.set_trace()
 
-#os.system('cls' if os.name == 'nt' else 'clear') #clear screen
+os.system('cls' if os.name == 'nt' else 'clear') #clear screen
 
 file_gbk = raw_input("genbank file? ")
 # Parse genbank files
 for seq_origin in SeqIO.parse(file_gbk, "genbank"):
-        print seq_origin.id, ":", seq_origin.description
+    print seq_origin.id, ":", seq_origin.description
 print
 
 #Send Sequence to BLASTn
@@ -20,17 +21,18 @@ result_handle.close()
 result_handle = open("origin_blast.xml")
 
 blast_table = SearchIO.read('origin_blast.xml', 'blast-xml')
-final_hit = blast_table[-1].id.split("|")
-final_id = final_hit[1]
-print(final_id)
+for x in range(50):
+    hit = blast_table[x].id.split("|")
+    the_id = hit[1]
+    print(the_id)
+    # Entrez Search
+    Entrez.email = "thomas.davies-7@student.manchester.ac.uk"
+    search = Entrez.efetch(db="nuccore", id=the_id, retmode="xml")
+    records = Entrez.read(search)
+    taxon = records[0]["GBSeq_taxonomy"].split("; ")
+    name = records[0]["GBSeq_source"]
+    print(name)
+    print (len(taxon))
 
-# Entrez Search
-Entrez.email = "thomas.davies-7@student.manchester.ac.uk"
-search = Entrez.efetch(db="nuccore", id=final_id, retmode="xml")
-records = Entrez.read(search)
-taxon = records[0]["GBSeq_taxonomy"].split("; ")
-print (taxon)
-print (len(taxon))
-
-'''print("Press Any Key to Exit...")
-raw_input()'''
+print("Press Any Key to Exit...")
+raw_input()
