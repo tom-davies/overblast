@@ -30,9 +30,13 @@ for x in range(50):
     # Entrez Search
     Entrez.email = "thomas.davies-7@student.manchester.ac.uk"
     search = Entrez.efetch(db="nuccore", id=the_id, retmode="xml")
+    print('ding')
     records = Entrez.read(search)
+    print('dong')
     taxon = records[0]["GBSeq_taxonomy"].split("; ")
+    print('the witch')
     name = records[0]["GBSeq_source"]
+    print('is dead')
     names.append(name)
     tax_length.append(len(taxon))
     print('.'),
