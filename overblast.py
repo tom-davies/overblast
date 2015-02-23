@@ -25,18 +25,19 @@ names = []
 tax_length = []
 print("Taxonomy Search in Progress, Please Wait.")
 for x in range(50):
-    hit = blast_table[x].id.split("|")
-    the_id = hit[1]
-    # Entrez Search
-    Entrez.email = "thomas.davies-7@student.manchester.ac.uk"
-    search = Entrez.efetch(db="nuccore", id=the_id, retmode="xml")
-    records = Entrez.read(search)
-    taxon = records[0]["GBSeq_taxonomy"].split("; ")
-    name = records[0]["GBSeq_source"]
-    names.append(name)
-    tax_length.append(len(taxon))
-    print('.')
-    search.close()
+	hit = blast_table[x].id.split("|")
+	the_id = hit[1]
+	# Entrez Search
+	Entrez.email = "thomas.davies-7@student.manchester.ac.uk"
+	search = Entrez.efetch(db="nuccore", id=the_id, retmode="xml")
+	print(search)
+	records = Entrez.read(search, validate=False)
+	taxon = records[0]["GBSeq_taxonomy"].split("; ")
+	name = records[0]["GBSeq_source"]
+	names.append(name)
+	tax_length.append(len(taxon))
+	print('.')
+	search.close()
 
 print(names)
 print(tax_length)
