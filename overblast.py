@@ -8,6 +8,7 @@ os.system('cls' if os.name == 'nt' else 'clear') #clear screen
 # # Parse genbank files
 # for seq_origin in SeqIO.parse(file_gbk, "genbank"):
 #     print seq_origin.id, ":", seq_origin.description
+#     print seq_origin
 # print
 #
 # #Send Sequence to BLASTn

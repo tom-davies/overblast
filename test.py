@@ -1,7 +1,5 @@
-from Bio import SeqIO, SearchIO, Entrez
+from Bio import SeqIO
 from Bio.Blast import NCBIWWW
-import sys
-print(sys.version)
 file_gbk = raw_input("genbank file? ")
 # Parse genbank files
 '''for seq_origin in SeqIO.parse(file_gbk, "genbank"):
@@ -20,10 +18,9 @@ blast_table = SearchIO.read('origin_blast.xml', 'blast-xml')
 print("\aTaxonomy Search in Progress, Please Wait.")
 names = []
 taxons = []
-for x in blast_table:
+for x in xrange(50):
     hit = blast_table[x].id.split("|")
     the_id = hit[1]
-    print("\a")
     print(x+1),
     # Entrez Search
     Entrez.email = "thomas.davies-7@student.manchester.ac.uk"
@@ -37,6 +34,3 @@ for x in blast_table:
         print("\t\t"),
         print(len(taxon))
     search.close()
-print(list(set(names)))
-print(list(set(taxons)))
-print("\a\a\a\a\a")
