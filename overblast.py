@@ -1,5 +1,5 @@
 from Bio import SeqIO, SearchIO, Entrez
-from Bio.Blast import NCBIWWW
+from Bio.Blast import NCBIWWW, NCBIXML
 import os
 
 os.system('cls' if os.name == 'nt' else 'clear') #clear screen
@@ -19,14 +19,14 @@ os.system('cls' if os.name == 'nt' else 'clear') #clear screen
 # result_handle.close()
 # result_handle = open("origin_blast.xml")
 
-blast_table = SearchIO.read('origin_blast.xml', 'blast-xml')
-print("Taxonomy Search in Progress, Please Wait.")
+result_handle = open("origin_blast.xml")
+blast_record = NCBIXML.read(result_handle)
+print("\aTaxonomy Search in Progress, Please Wait.")
 names = []
 taxons = []
-for x in xrange(50):
-    hit = blast_table[x].id.split("|")
+for alignment in blast_record.alignments:
+    hit = alignment.title.split("|")
     the_id = hit[1]
-    print(x+1),
     # Entrez Search
     Entrez.email = "thomas.davies-7@student.manchester.ac.uk"
     search = Entrez.efetch(db="nuccore", id=the_id, rettype="gb", retmode="text")
@@ -39,6 +39,7 @@ for x in xrange(50):
         print("\t\t"),
         print(len(taxon))
     search.close()
-
+print(list(set(names)))
+print(list(set(taxons)))
 print("Press Any Key to Exit...")
 raw_input()
