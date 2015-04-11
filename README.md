@@ -7,8 +7,12 @@ This is intended to find an analogue of the product that has a similar sequence 
 In order to use OverBLAST, the following prerequesites are required. UNIX/OSX users can use the easy_install tool included with python, and Windows users can obtain installers from the links included.
 
 - [Biopython](http://biopython.org)
+
         sudo easy_install -f http://biopython.org/DIST/ biopython
+
+
 - [PrettyTable](https://code.google.com/p/prettytable/)
+
         sudo easy_install prettytable
 
 ## Using the Tool ##
