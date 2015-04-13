@@ -15,6 +15,10 @@ In order to use OverBLAST, the following prerequesites are required. UNIX/OSX us
 
         sudo easy_install prettytable
 
+- [MUSCLE](http://www.drive5.com/muscle/)
+
+- [PhyML](http://http://www.atgc-montpellier.fr/phyml/binaries.php)
+
 ## Using the Tool ##
 The tool can be started from the command line by simply using
 

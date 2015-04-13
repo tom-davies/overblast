@@ -1,5 +1,9 @@
-from Bio import SeqIO, Entrez
+from Bio import SeqIO, Entrez, Phylo, AlignIO
 from Bio.Blast import NCBIWWW, NCBIXML
+from Bio.Align.Applications import MuscleCommandline
+from Bio.Phylo.Applications import PhymlCommandline
+from Bio.Seq import Seq
+from Bio.SeqRecord import SeqRecord
 from prettytable import PrettyTable as pt
 import os
 
@@ -12,54 +16,56 @@ for seq_origin in SeqIO.parse(file_gbk, "genbank"):
 print
 
 def blast(sequence, run, addn):
-    "Send Sequence to BLASTn"
-    print("Running BLAST , Please Wait.")
-    result_handle = NCBIWWW.qblast("blastn", "nr", sequence, entrez_query="all[filter] NOT((srcdb_refseq_model[prop] AND biomol_rna[prop])) %s" %addn)
-    blast_file = open("blast%s.xml","w" %run)
+    #Send Sequence to BLASTn
+    print("Running BLAST cycle #%s , Please Wait." % run)
+    result_handle = NCBIWWW.qblast("blastn", "nr", sequence, entrez_query="all[filter] NOT((srcdb_refseq_model[prop] AND biomol_rna[prop])) %s" % addn)
+    blast_file = open("blast%s.xml" % run,"w")
     blast_file.write(result_handle.read())
     blast_file.close()
     result_handle.close()
     return;
 
-def tax(run):
-    result_handle = open("blast%s.xml" %run)
+def phylo(run):
+    #Draw phylogenic tree from BLAST
+    result_handle = open("blast%s.xml" % run)
     blast_record = NCBIXML.read(result_handle)
-    print("\aTaxonomy Search in Progress, Please Wait.")
-    names = []
-    taxons = []
-    seqs = []
-    for alignment in blast_record.alignments:
-        hit = alignment.title.split("|")
-        the_id = hit[1]
-        # Entrez Search
-        Entrez.email = "thomas.davies-7@student.manchester.ac.uk"
-        search = Entrez.efetch(db="nuccore", id=the_id, rettype="gb", retmode="text")
-        for record in SeqIO.parse(search, "genbank"):
-            name = record.annotations['organism']
-            names.append(name)
-            taxon = record.annotations['taxonomy']
-            taxons.append(len(taxon))
-        search.close()
-        #seqs.append(hsp.sbjct)
-        print(".")
+    print("Collecting Sequences")
+    def get_seqs(source):
+            for aln in source:
+                for hsp in aln.hsps:
+                    yield SeqRecord(Seq(hsp.sbjct), id=aln.accession)
+                    break
+    seqs = get_seqs(blast_record.alignments,)
+    SeqIO.write(seqs, 'Phylo/family.fasta', 'fasta')
+    print("Aligning Sequences")
+    cmdline = MuscleCommandline(input="Phylo/family.fasta", out="Phylo/family.aln", clw=True)
+    cmdline()
+    AlignIO.convert("Phylo/family.aln", "clustal", "Phylo/family.phy", "phylip-relaxed")
+    print("Generating Tree...")
+    cmdline = PhymlCommandline(input="Phylo/family.phy")
+    out_log, err_log = cmdline()
+    print("Drawing Tree")
+    tree = Phylo.read("Phylo/family.phy_phyml_tree.txt", "newick")
+    Phylo.draw_ascii(tree)
     return;
 
-def dist_table():
-    table = pt()
-    table.add_column("Names", names)
-    table.add_column("Taxon Length", taxons)
-    table.add_column("HSP", seqs)
-    table.align = "l"
-    print(table)
+blast(sequence = seq_origin.seq, run = "01", addn = "")
+phylo(run = "01")
+tree_out = open("Phylo/family.phy_phyml_tree.txt")
+tree_out.seek(1)
+new_id = tree_out.read(8)
+print(new_id)
 
-#blast(sequence = seq_origin.seq, run = "01", addn = "")
-
-#tax(1)
-
-#dist_table()
+for x in xrange(2, 10):
+    blast(sequence = new_id, run = "%02d" % x, addn= "")
+    phylo(run = "%02d" % x)
+    tree_out = open("Phylo/family.phy_phyml_tree.txt")
+    tree_out.seek(1)
+    new_id = tree_out.read(8)
+    print(new_id)
 
 #Run Mammalian BLAST
-#blast(sequence = , run = "02", addn = "tx40674[orgn]")
+#blast(sequence = , run = "LAST", addn = "tx40674[orgn]")
 
 print("Press Any Key to Exit...")
 raw_input()
