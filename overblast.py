@@ -56,7 +56,7 @@ phylo(run = "01")
 tree_out = open("Phylo/family.phy_phyml_tree.txt")
 tree_out.seek(1)
 new_id = tree_out.read(100).split(":")
-true_id = new_id[0]
+true_id = new_id[0].replace("(","")
 print(true_id)
 
 for x in xrange(2, cycles):
@@ -65,7 +65,7 @@ for x in xrange(2, cycles):
     tree_out = open("Phylo/family.phy_phyml_tree.txt")
     tree_out.seek(1)
     new_id = tree_out.read(100).split(":")
-    true_id = new_id[0]
+    true_id = new_id[0].replace("(","")
     print(true_id)
 
 #Run Mammalian BLAST
