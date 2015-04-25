@@ -6,6 +6,7 @@ from Bio.Seq import Seq
 from Bio.SeqRecord import SeqRecord
 from prettytable import PrettyTable as pt
 import os
+import pdb
 
 os.system('cls' if os.name == 'nt' else 'clear') #clear screen
 
@@ -20,7 +21,7 @@ def blast(sequence, run, addn):
     print
     print
     print("Running BLAST cycle #%s , Please Wait." % run)
-    result_handle = NCBIWWW.qblast("blastn", "nr", sequence, entrez_query="all[filter] NOT((srcdb_refseq_model[prop] AND biomol_rna[prop]) OR environmental_samples[organism] OR metagenomes[orgn]) %s" % addn, megablast=True, hitlist_size="50")
+    result_handle = NCBIWWW.qblast("blastn", "nr", sequence, entrez_query="all[filter] NOT((srcdb_refseq_model[prop] AND biomol_rna[prop]) OR environmental_samples[organism] OR metagenomes[orgn]) 1:10000[slen] %s" % addn, megablast=True)
     blast_file = open("blast%s.xml" % run,"w")
     blast_file.write(result_handle.read())
     blast_file.close()
@@ -52,29 +53,42 @@ def phylo(run):
     return;
 
 f = open("hits3.txt","a")
+used_ids = []
 
-blast(sequence = "FQ225076", run = "01", addn = "")
-phylo(run = "01")
+#blast(sequence = seq_origin.seq, run = "01", addn = "")
+#phylo(run = "01")
 tree_out = open("Phylo/family.phy_phyml_tree.txt")
 tree_out.seek(1)
 new_id = tree_out.read(100).replace(",",":").split(":")
-true_id = new_id[2].replace("(","")
+true_id = new_id[0].replace("(","")
 print(true_id)
+used_ids.append(true_id)
 f.write(true_id)
 f.close()
 
+point = 0
 for x in xrange(2, cycles):
     blast(sequence = true_id, run = "%02d" % x, addn= "")
     phylo(run = "%02d" % x)
     tree_out = open("Phylo/family.phy_phyml_tree.txt")
     tree_out.seek(1)
     new_id = tree_out.read(100).replace(",",":").split(":")
-    true_id = new_id[0].replace("(","")
-    print(true_id)
+    true_id = new_id[point].replace("(","")
+    for ids in used_ids:
+        if true_id == ids:
+            point += 2
+            true_id = new_id[point].replace("(","")
+            print(true_id)
+            used_ids.append(true_id)
+        else:
+            print(true_id)
+            used_ids.append(true_id)
+            break;
     f = open("hits3.txt","a")
     f.write("\n")
     f.write(true_id)
     f.close()
+    print(used_ids)
 
 #Run Mammalian BLAST
 blast(sequence = true_id, run = "LAST", addn = "tx40674[orgn]")
