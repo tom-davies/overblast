@@ -20,7 +20,7 @@ def blast(sequence, run, addn):
     print
     print
     print("Running BLAST cycle #%s , Please Wait." % run)
-    result_handle = NCBIWWW.qblast("blastn", "nr", sequence, entrez_query="all[filter] NOT((srcdb_refseq_model[prop] AND biomol_rna[prop])) %s" % addn)
+    result_handle = NCBIWWW.qblast("blastn", "nr", sequence, entrez_query="all[filter] NOT((srcdb_refseq_model[prop] AND biomol_rna[prop]) OR environmental_samples[organism] OR metagenomes[orgn]) %s" % addn, megablast=True, hitlist_size="50")
     blast_file = open("blast%s.xml" % run,"w")
     blast_file.write(result_handle.read())
     blast_file.close()
@@ -48,31 +48,41 @@ def phylo(run):
     out_log, err_log = cmdline()
     print("\tDrawing Tree")
     tree = Phylo.read("Phylo/family.phy_phyml_tree.txt", "newick")
-    #Phylo.draw_ascii(tree)
+    Phylo.draw_ascii(tree)
     return;
 
-blast(sequence = seq_origin.seq, run = "01", addn = "")
+f = open("hits3.txt","a")
+
+blast(sequence = "FQ225076", run = "01", addn = "")
 phylo(run = "01")
 tree_out = open("Phylo/family.phy_phyml_tree.txt")
 tree_out.seek(1)
-new_id = tree_out.read(100).split(":")
-true_id = new_id[0].replace("(","")
+new_id = tree_out.read(100).replace(",",":").split(":")
+true_id = new_id[2].replace("(","")
 print(true_id)
+f.write(true_id)
+f.close()
 
 for x in xrange(2, cycles):
     blast(sequence = true_id, run = "%02d" % x, addn= "")
     phylo(run = "%02d" % x)
     tree_out = open("Phylo/family.phy_phyml_tree.txt")
     tree_out.seek(1)
-    new_id = tree_out.read(100).split(":")
+    new_id = tree_out.read(100).replace(",",":").split(":")
     true_id = new_id[0].replace("(","")
     print(true_id)
+    f = open("hits3.txt","a")
+    f.write("\n")
+    f.write(true_id)
+    f.close()
 
 #Run Mammalian BLAST
 blast(sequence = true_id, run = "LAST", addn = "tx40674[orgn]")
 phylo(run = "LAST")
 tree = Phylo.read("Phylo/family.phy_phyml_tree.txt", "newick")
 Phylo.draw_ascii(tree)
+
+f.close()
 
 print("Press Any Key to Exit...")
 raw_input()
