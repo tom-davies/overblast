@@ -21,7 +21,7 @@ def blast(sequence, run, addn):
     print
     print
     print("Running BLAST cycle #%s , Please Wait." % run)
-    result_handle = NCBIWWW.qblast("blastn", "nr", sequence, entrez_query="all[filter] NOT((srcdb_refseq_model[prop] AND biomol_rna[prop]) OR environmental_samples[organism] OR metagenomes[orgn]) 1:10000[slen] %s" % addn, megablast=True)
+    result_handle = NCBIWWW.qblast("blastn", "nr", sequence, entrez_query="all[filter] 500:20000[slen] NOT((srcdb_refseq_model[prop] AND biomol_rna[prop]) OR environmental_samples[organism] OR metagenomes[orgn]) %s" % addn, megablast=True)
     blast_file = open("blast%s.xml" % run,"w")
     blast_file.write(result_handle.read())
     blast_file.close()
@@ -52,11 +52,11 @@ def phylo(run):
     Phylo.draw_ascii(tree)
     return;
 
-f = open("hits3.txt","a")
+f = open("hits.txt","a")
 used_ids = []
 
-#blast(sequence = seq_origin.seq, run = "01", addn = "")
-#phylo(run = "01")
+blast(sequence = seq_origin.id, run = "01", addn = "")
+phylo(run = "01")
 tree_out = open("Phylo/family.phy_phyml_tree.txt")
 tree_out.seek(1)
 new_id = tree_out.read(100).replace(",",":").split(":")
@@ -84,7 +84,7 @@ for x in xrange(2, cycles):
             print(true_id)
             used_ids.append(true_id)
             break;
-    f = open("hits3.txt","a")
+    f = open("hits.txt","a")
     f.write("\n")
     f.write(true_id)
     f.close()
