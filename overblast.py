@@ -54,25 +54,34 @@ def phylo(run):
 
 f = open("hits.txt","a")
 used_ids = []
+point = 0
 
 blast(sequence = seq_origin.id, run = "01", addn = "")
 phylo(run = "01")
 tree_out = open("Phylo/family.phy_phyml_tree.txt")
 tree_out.seek(1)
-new_id = tree_out.read(100).replace(",",":").split(":")
-true_id = new_id[0].replace("(","")
-print(true_id)
-used_ids.append(true_id)
+new_id = tree_out.read().replace(",",":").split(":")
+true_id = new_id[point].replace("(","")
+for ids in used_ids:
+    if true_id == ids:
+        point += 2
+        true_id = new_id[point].replace("(","")
+        print(true_id)
+        used_ids.append(true_id)
+    else:
+        print(true_id)
+        used_ids.append(true_id)
+        break;
 f.write(true_id)
 f.close()
 
-point = 0
 for x in xrange(2, cycles):
     blast(sequence = true_id, run = "%02d" % x, addn= "")
     phylo(run = "%02d" % x)
     tree_out = open("Phylo/family.phy_phyml_tree.txt")
     tree_out.seek(1)
-    new_id = tree_out.read(100).replace(",",":").split(":")
+    new_id = tree_out.read().replace(",",":").split(":")
+    point = 0
     true_id = new_id[point].replace("(","")
     for ids in used_ids:
         if true_id == ids:
