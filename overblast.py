@@ -32,7 +32,7 @@ def phylo(run):
     #Draw phylogenic tree from BLAST
     result_handle = open("blast%s.xml" % run)
     blast_record = NCBIXML.read(result_handle)
-    print("\tCollecting Sequences")
+    print("\tCollecting Sequences")		#Extract sequences from BLAST result
     def get_seqs(source):
             for aln in source:
                 for hsp in aln.hsps:
@@ -52,29 +52,32 @@ def phylo(run):
     Phylo.draw_ascii(tree)
     return;
 
-f = open("hits.txt","a")
-used_ids = []
+f = open("hits.txt","a")	#Make a place to store sequence IDs
+used_ids = []				#Setup for duplicate checking
 point = 0
 
+#Run first Cycle
 blast(sequence = seq_origin.id, run = "01", addn = "")
 phylo(run = "01")
 tree_out = open("Phylo/family.phy_phyml_tree.txt")
 tree_out.seek(1)
 new_id = tree_out.read().replace(",",":").split(":")
 true_id = new_id[point].replace("(","")
+#Duplicate Checking
 for ids in used_ids:
     if true_id == ids:
         point += 2
         true_id = new_id[point].replace("(","")
-        print(true_id)
+        print(true_id)	#If the ID is a dupe, add 2 to the index to find the next one
         used_ids.append(true_id)
     else:
-        print(true_id)
+        print(true_id)	#If the ID isn't duped, use it, and add it to the used_ids list
         used_ids.append(true_id)
         break;
 f.write(true_id)
 f.close()
 
+#Run all other cycles
 for x in xrange(2, cycles):
     blast(sequence = true_id, run = "%02d" % x, addn= "")
     phylo(run = "%02d" % x)
@@ -83,14 +86,15 @@ for x in xrange(2, cycles):
     new_id = tree_out.read().replace(",",":").split(":")
     point = 0
     true_id = new_id[point].replace("(","")
+	#Duplicate Checking
     for ids in used_ids:
         if true_id == ids:
-            point += 2
+            point += 2		#If the ID is a dupe, add 2 to the index to find the next one
             true_id = new_id[point].replace("(","")
             print(true_id)
             used_ids.append(true_id)
         else:
-            print(true_id)
+            print(true_id)	#If the ID isn't duped, use it, and add it to the used_ids list
             used_ids.append(true_id)
             break;
     f = open("hits.txt","a")
