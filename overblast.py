@@ -65,13 +65,13 @@ new_id = tree_out.read().replace(",",":").split(":")
 true_id = new_id[point].replace("(","")
 #Duplicate Checking
 for ids in used_ids:
-    if true_id == ids:
-        point += 2
+    if true_id == ids:  #If the ID is a dupe
+        point += 2		#add 2 to the index to find the next one
         true_id = new_id[point].replace("(","")
-        print(true_id)	#If the ID is a dupe, add 2 to the index to find the next one
+        print(true_id)
         used_ids.append(true_id)
-    else:
-        print(true_id)	#If the ID isn't duped, use it, and add it to the used_ids list
+    else:               #If the ID isn't duped
+        print(true_id)	#use it, and add it to the used_ids list
         used_ids.append(true_id)
         break;
 f.write(true_id)
@@ -88,13 +88,13 @@ for x in xrange(2, cycles):
     true_id = new_id[point].replace("(","")
 	#Duplicate Checking
     for ids in used_ids:
-        if true_id == ids:
-            point += 2		#If the ID is a dupe, add 2 to the index to find the next one
+        if true_id == ids:  #If the ID is a dupe
+            point += 2		#add 2 to the index to find the next one
             true_id = new_id[point].replace("(","")
             print(true_id)
             used_ids.append(true_id)
-        else:
-            print(true_id)	#If the ID isn't duped, use it, and add it to the used_ids list
+        else:               #If the ID isn't duped
+            print(true_id)	#use it, and add it to the used_ids list
             used_ids.append(true_id)
             break;
     f = open("hits.txt","a")
